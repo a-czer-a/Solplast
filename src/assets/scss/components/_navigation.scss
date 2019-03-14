@@ -1,0 +1,175 @@
+$topbar-responsive-animation-type: fade-in; // or use slide-down or none
+
+.topbar-responsive {
+  background: $white;
+  padding: 15px calc(3rem - 16px);
+
+  @include breakpoint(medium down) {
+    padding: 0.75rem calc(1.5rem - 7px);
+  }
+
+  .top-bar-title {
+    display: flex;
+    justify-content: space-between;
+
+    .title-bar {
+      padding: 0;
+      font-size: 1.5rem;
+
+      .fas {
+        color: $blue;
+      }
+    }
+  }
+
+  .topbar-responsive__logo {
+    vertical-align: middle;
+    padding-left: 0;
+  }
+
+  .top-bar__logo {
+    width: 160px;
+  }
+
+  .menu {
+    background: $white;
+
+    .menu__item {
+      padding: 5px 0 5px 20px;
+      transition: all 0.6 ease-in;
+
+      @include breakpoint(small only) {
+        padding: 10px 0 0;
+      }
+
+      @include breakpoint(small only) {
+        margin-bottom: 10px;
+
+        &:hover {
+          border-left: 2px solid $green;
+        }
+      }
+
+      &:hover > .menu__link {
+        border-bottom: 2px solid $green;
+
+        @include breakpoint(small only) {
+          padding-left: 12px;
+          border-color: $white;
+        }
+      }
+
+      &:hover > .menu__link--noborder {
+        border-bottom: 2px solid #fff;
+
+        @include breakpoint(small only) {
+          border-color: $white;
+        }
+      }
+    }
+
+    }
+    .menu__item--last {
+      margin-right: 0;
+      padding-right: 0;
+    }
+
+    .menu__link {
+      padding: 0;
+      color: $blue;
+      font-weight: 600;
+      border-bottom: 2px solid #fff;
+      transition: all 0.15s ease-in;
+
+      &:hover {
+        color: $blue;
+      }
+    }
+
+    .menu__dropdown {
+      color: $blue;
+
+      @include breakpoint(small only) {
+        padding: 10px 10px 0 0;
+      }
+    }
+
+    .menu__dropdown-link {
+      &:first-of-type {
+        @include breakpoint(small only) {
+          margin-top: 8px;
+        }
+      }
+
+      &:hover {
+        background-color: $green;
+        font-weight: 600;
+        padding-left: 10px;
+        transition: all 0.5s ease-in;
+      }
+      &:hover > a {
+        color: $white;
+        transition: color 0.5s ease-in;
+
+      }
+    }
+
+  .is-dropdown-submenu {
+    z-index: 10;
+  }
+
+  .accordion-menu {
+    @include breakpoint(medium down) {
+      margin-top: 30px;
+    }
+  }
+
+  @include breakpoint(small only) {
+    .top-bar-title {
+      position: relative;
+      width: 100%;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity:0;
+  } to {
+      opacity:1;
+    }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@include breakpoint(small only) {
+  .topbar-responsive__links {
+    animation-fill-mode: both;
+    animation-duration: 0.6s;
+    width: 100%;
+
+    @if $topbar-responsive-animation-type == slide-down {
+      animation: slideDown 1s ease-in;
+    } @else if $topbar-responsive-animation-type == fade-in {
+      animation: fadeIn 1s ease-in;
+    } @else {
+      animation: none;
+    }
+  }
+}
+
+.dropdown.menu.medium-horizontal > li.opens-left > .is-dropdown-submenu {
+  right: 50%;
+  left: 10%;
+}
+
+
+
+

@@ -1,0 +1,36 @@
+.l-contact-bar {
+  padding: 0 3rem;
+  height: 30px;
+  background-color: $green;
+  font-family: 'Open Sans';
+  font-size: 12px;
+
+  @include breakpoint(medium only) {
+    padding: 0 2rem;
+  }
+  @include breakpoint(small only) {
+    padding: 0 0.75rem;
+  }
+
+  //font-weight: 600;
+
+  .contact-bar__item {
+    padding: 0;
+    margin: 0 25px 0 0;
+    color: $white;
+
+    .fas {
+      margin-right: 10px;
+    }
+  }
+
+  .contact-bar__item--last {
+    margin-right: 0;
+  }
+
+  .contact-bar__item--mobile {
+    @include breakpoint(small only) {
+      margin-right: 0;
+    }
+  }
+}

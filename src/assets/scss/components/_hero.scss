@@ -1,0 +1,48 @@
+.l-hero__container {
+  position: relative;
+  height: 350px;
+  margin: 0;
+  padding: 0;
+
+  .hero__image {
+    background-image: url("../img/stock-photo-plastic-water-pipe-industry-147074075-cropped.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+
+  .hero__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(33, 65, 112, 0.6);
+    z-index: 2;
+  }
+
+  .hero__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    z-index: 3;
+
+    &:hover {
+      border: 1px solid $white;
+    }
+    &:hover > .hero__anchor {
+      color: $white
+    }
+
+    @include breakpoint(small only) {
+      width: 70%;
+    }
+
+    .hero__anchor {
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 1.6;
+    }
+  }
+}
