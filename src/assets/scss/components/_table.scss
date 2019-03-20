@@ -1,0 +1,27 @@
+.l-table {
+  text-align: left;
+  width: auto;
+  max-width: 450px;
+  margin: 0;
+  padding: 0;
+}
+
+//.table__container {
+//  padding: 1.5rem calc(4rem - 16px) 0;
+//
+//  @include breakpoint(medium down) {
+//    padding: 0.5rem calc(1.5rem - 7px) 0;
+//  }
+//}
+
+.table__cell {
+  border: 1px solid $light-gray;
+}
+
+.table__head {
+  min-width: 50px;
+  background-color: $green;
+  color: $white;
+  font-weight: 600;
+  border: 1px solid $green;
+}

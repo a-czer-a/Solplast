@@ -1,0 +1,22 @@
+.footer__container {
+  background-color: $blue;
+  color: $white;
+  padding: 0.3rem calc(4rem - 16px);
+
+  @include breakpoint(medium down) {
+    padding: 0.3rem calc(1.5rem - 7px);
+  }
+  .footer__text {
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 5px 0;
+
+    @include breakpoint(small only) {
+      padding: 3px;
+    }
+
+    .fas {
+      padding: 0 15px;
+    }
+  }
+}

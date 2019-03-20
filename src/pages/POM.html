@@ -1,0 +1,33 @@
+<div class="container">
+    {{> contact-bar}}
+    {{> navigation}}
+    <!--{{> hero}}-->
+    {{> image}}
+
+    <!-- INFO TABLE -->
+    <table class="l-table unstriped">
+        <tbody class="table__body">
+        {{#each pom.pom-product}}
+        <tr>
+            <th class="table__head">{{left}}</th>
+            <td class="table__cell">{{right}}</td>
+        </tr>
+        {{/each}}
+        </tbody>
+    </table>
+    <!---->
+    <!-- MATERIAL TABLE -->
+    <table class="l-table unstriped">
+        <tbody>
+        {{#each pom.pom-material}}
+        <tr>
+            <th class="table__head">{{left}}</th>
+            <td class="table__cell">{{right}}</td>
+        </tr>
+        {{/each}}
+        </tbody>
+    </table>
+    <!---->
+
+    {{> footer}}
+</div>

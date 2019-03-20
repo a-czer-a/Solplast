@@ -1,0 +1,35 @@
+.form__container .grid-container {
+  padding: 0;
+}
+
+.form__container .cell {
+  margin-bottom: 0.8rem;
+}
+
+.form__container {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.form__star {
+  color: $green;
+  font-weight: 700;
+  padding-left: 2px;
+}
+
+.form__button {
+  padding: 0.8rem 1.5rem;
+  width: 140px;
+  background-color: $green;
+  color: $white;
+  font-weight: 600;
+  &:hover {
+    background-color: lighten($green, 5%);
+    color: $white;
+  }
+}
+//.form__message {
+//  line-height: 6rem;
+//}

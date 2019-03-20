@@ -1,0 +1,15 @@
+.pom__image {
+    background-image: url("../img/pa-big.jpg");
+
+    @include breakpoint(medium only) {
+        background-image: url("../img/pa-medium.jpg");
+    }
+
+    @include breakpoint(small only) {
+        background-image: url("../img/pa-small.jpg");
+    }
+}
+
+.pa__image {
+    background-image: url("../img/IMG_3788-black.jpg");
+}

@@ -1,0 +1,72 @@
+.tabs {
+  margin: 100px 0 30px 0;
+
+  @include breakpoint(small only) {
+    margin: 130px 0 30px 0;
+  }
+}
+.products__square {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  position: relative;
+  margin: -5px;
+  background-color: $medium-gray;
+  transform: rotate(45deg);
+}
+
+.products__square--moved {
+  transform: translateY(-70px) rotate(45deg);
+  //background-color: lighten($medium-gray, 10%);
+}
+
+.products__square--active {
+  &:hover {
+    background-color: darken($medium-gray, 10%);
+
+  }
+}
+
+.products__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  text-transform: uppercase;
+  color: $white;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.tabs-title > a {
+  padding: 0;
+}
+
+.tabs-content {
+  height: auto;
+}
+
+.tabs-panel {
+  padding: 30px 0 0;
+
+  .tabs__item {
+    min-width: 100px;
+    width: auto;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid $white;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      border: 1px solid lighten($gray, 20%);
+    }
+  }
+
+  .fas {
+    padding-right: 8px;
+    color: $green;
+  }
+}

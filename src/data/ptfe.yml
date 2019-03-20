@@ -1,0 +1,43 @@
+ptfe-material:
+  -
+    left: 'Absorbcja wody'
+    right: 'bardzo mała'
+  -
+    left: 'Wytrzymałość i twardość'
+    right: 'bardzo mała'
+
+  - left: 'Odporność cieplna'
+    right: 'bardzo dobra'
+
+  - left: 'Stabilność wymiarowa'
+    right: 'dobra'
+
+  - left: 'Obrabialność'
+    right: 'bardzo dobra'
+
+  - left: 'Odporność chemiczna'
+    right: 'bardzo dobra'
+
+
+ptfe-product:
+  - left: 'Nazwa'
+    right: 'politetrafluoroetylen'
+
+  - left: 'Nazwy używane'
+    right: 'policzterofluoroetylen, teflon®'
+
+  - left: 'Skrót ISO 1043'
+    right: 'PTFE'
+
+  - left: 'Numer-CAS'
+    right: '9014-83-9'
+
+  - left: 'Rodzaj tworzywa'
+    right: 'termoplastyczne'
+
+  - left: 'Wzór chemiczny'
+    right: 'C2F4'
+
+ptfe-about:
+  -
+    about: 'Politetrafluoroetyleny charakteryzują się bardzo wysoką odpornością chemiczną oraz bardzo niskim współczynnikiem tarcia. Ich odporność cieplna -200oC do +260oC jest jedną z najwyższych wśród tworzyw sztucznych. Budowa cząstecz- kowa PTFE sprawia, że ich powierzchnia charakteryzuje się wysoką antyadhezyjnością. Ze względu na swoje właściwości jest stosowany najczęściej w przemyśle chemicznym oraz spożywczym.'

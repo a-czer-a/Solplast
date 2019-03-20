@@ -1,0 +1,73 @@
+<div class="container">
+    {{> contact-bar}}
+    {{> navigation}}
+    <!--{{> hero}}-->
+    {{> image}}
+
+
+    {{> side-navigation}}
+
+        <!-- ABOUT MATERIAL-->
+    <div class="l-section">
+        <p class="product__nav">Tworzywa sztuczne<i class="fas fa-chevron-right"></i>PA</p>
+        <h4 class="l-section__header">PA</h4>
+        <div class="product__about">
+            {{#each pa.pa-about}}
+                <p class="about-text">
+                    {{about}}
+                </p>
+            {{/each}}
+        </div>
+    </div>
+
+    <div class="l-section info__container">
+        <!-- INFO TABLE -->
+        <div class="l-text__container">
+            <table class="l-table unstriped">
+                <tbody class="table__body">
+                {{#each pa.pa-product}}
+                <tr>
+                    <th class="table__head">{{left}}</th>
+                    <td class="table__cell">{{right}}</td>
+                </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!---->
+
+    <div class="l-section info__container">
+        div.grid-x
+    <!-- MATERIAL TABLE -->
+        <div class="l-text__container">
+            <table class="l-table unstriped">
+                <tbody>
+                {{#each pa.pa-material}}
+                <tr>
+                    <th class="table__head">{{left}}</th>
+                    <td class="table__cell">{{right}}</td>
+                </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="grid-x gallery__container">
+        <div class="cell small-12 medium-4">
+            <img src="{{root}}/assets/img/pa-500.jpg" alt="Pręty z poliamidu">
+        </div>
+        <div class="cell small-12 medium-4">
+            <img src="{{root}}/assets/img/pa-500.jpg" alt="Pręty z poliamidu">
+        </div>
+        <div class="cell small-12 medium-4">
+            <img src="{{root}}/assets/img/pa-500.jpg" alt="Pręty z poliamidu">
+        </div>
+    </div>
+    <!---->
+    <!--{{> sticky-navigation}}-->
+    <!---->
+    {{> footer}}
+</div>

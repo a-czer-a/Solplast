@@ -1,0 +1,21 @@
+materials:
+  -
+    plastic: POM
+  -
+    plastic: PA
+  -
+    plastic: PET
+  -
+    plastic: PE
+  -
+    plastic: PP
+  -
+    plastic: PTFE
+  -
+    plastic: PVDF
+  -
+    plastic: PEEK
+  -
+    plastic: PC
+  -
+    plastic: PMMA

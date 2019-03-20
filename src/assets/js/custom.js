@@ -1,5 +1,16 @@
 import $ from 'jquery';
 
+// $(function () {
+//     $('.menu__link').on('click', function () {
+//         $("#responsive-menu").css({"display: none"});
+//
+//     });
+//
+// $('.menu__dropdown-link').on('click', function () {
+//         $("#responsive-menu").css({"display: none"});
+//     });
+// });
+
 
 // LAZY LOAD GOOGLE MAPS
 /*

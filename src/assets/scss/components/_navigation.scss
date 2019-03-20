@@ -1,8 +1,24 @@
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+
 .topbar-responsive {
   background: $white;
-  padding: 15px calc(3rem - 16px);
+  padding: 15px calc(4rem - 16px);
+  border-bottom: 1px solid $light-gray;
+  //transition: all 0.5s ease-in;
 
   @include breakpoint(medium down) {
     padding: 0.75rem calc(1.5rem - 7px);
@@ -36,7 +52,7 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
     .menu__item {
       padding: 5px 0 5px 20px;
-      transition: all 0.6 ease-in;
+      transition: all 0.4 ease-in;
 
       @include breakpoint(small only) {
         padding: 10px 0 0;
@@ -88,9 +104,11 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
     .menu__dropdown {
       color: $blue;
+      margin-top: 20px;
 
       @include breakpoint(small only) {
         padding: 10px 10px 0 0;
+        margin-top: 0;
       }
     }
 
@@ -110,7 +128,6 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
       &:hover > a {
         color: $white;
         transition: color 0.5s ease-in;
-
       }
     }
 
@@ -132,27 +149,14 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
   }
 }
 
-@keyframes fadeIn {
-  from {
-    opacity:0;
-  } to {
-      opacity:1;
-    }
-}
-
-@keyframes slideDown {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
+.topbar-responsive--on-contact {
+  padding: 15px 4rem;
 }
 
 @include breakpoint(small only) {
-  .topbar-responsive__links {
+  .topbar-responsive-links {
     animation-fill-mode: both;
-    animation-duration: 0.6s;
+    animation-duration: 1s;
     width: 100%;
 
     @if $topbar-responsive-animation-type == slide-down {

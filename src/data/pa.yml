@@ -1,0 +1,42 @@
+pa-material:
+  -
+    left: 'Absorbcja wody'
+    right: 'bardzo dobra'
+  -
+    left: 'Wytrzymałość i twardość'
+    right: 'dobra'
+
+  - left: 'Odporność cieplna'
+    right: 'dobra'
+
+  - left: 'Stabilność wymiarowa'
+    right: 'bardzo mała'
+
+  - left: 'Obrabialność'
+    right: 'dobra'
+
+  - left: 'Odporność chemiczna'
+    right: 'dobra'
+
+
+pa-product:
+  - left: 'Nazwa'
+    right: 'poliamid'
+
+  - left: 'Nazwy używane'
+    right: 'perlon / nylon'
+
+  - left: 'Skrót ISO 1043'
+    right: 'PA'
+
+  - left: 'Numer-CAS'
+    right: '25038-54-4'
+
+  - left: 'Rodzaj tworzywa'
+    right: 'termoplastyczne'
+
+  - left: 'Wzór chemiczny'
+    right: 'C6H11NO'
+
+pa-about:
+  - about: 'Poliamidy to półkrystaliczne tworzywa termoplastyczne, otrzymywane głównie w wyniku polikondensacji. Cyfra przy skrócie w nazwie gatunku wskazuje na liczbę atomów węgla w podstawowej strukturze molekularnej. Wysoka skłonność do absorpcji wilgoci nadaje PA sztywność i twardość, co tworzy je wytrzymałymi i odpornymi na ścieranie oraz nadaje im doskonałe właściwości ślizgowe.'

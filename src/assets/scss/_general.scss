@@ -3,6 +3,91 @@
   font-family: $body-font-family;
 }
 
+.l-container {
+  margin: 0 auto;
+}
+.l-image {
+  position: relative;
+  height: 100%;
+  background-size: cover;
+}
+
+.l-image__header {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  min-width: 18%;
+  width: auto;
+  padding: 2.3rem calc(4rem - 16px) 0;
+  background-color: $blue;
+  z-index: 3;
+
+  @include breakpoint(medium down) {
+    padding: 2rem calc(1.5rem - 7px);
+  }
+
+  .l-image__title {
+    color: $white;
+
+    .fas {
+      padding-right: 15px;
+      color: $green;
+    }
+  }
+
+  .l-image__subtitle {
+    font-size: 80%;
+    color: $light-gray;
+  }
+}
+
+
+
 .l-section {
-  padding: 1rem 1.5rem;
+  padding: 2.3rem calc(4rem - 16px) 0.6rem;
+
+  @include breakpoint(medium down) {
+    padding: 2rem calc(1.5rem - 7px) 0.5rem;
+  }
+}
+.l-section__small-text {
+  margin-bottom: 0;
+}
+.l-section__header {
+  color: $blue;
+
+  @include breakpoint(small only) {
+    font-weight: 600;
+  }
+}
+
+.l-section__header--light {
+  color: $white;
+}
+
+.l-section__header--narrow {
+  width: auto;
+}
+
+.l-section__header--contact {
+  padding: 2.3rem calc(4rem - 16px) 0;
+
+  @include breakpoint(medium down) {
+    padding: 2rem calc(1.5rem - 7px) 0;
+  }
+}
+
+.l-text__container {
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+
+  @include breakpoint(small only) {
+    width: 100%;
+  }
+}
+
+.u-extra-margin--bottom {
+  margin-bottom: 15px;
 }

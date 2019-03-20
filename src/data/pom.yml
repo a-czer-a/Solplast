@@ -1,0 +1,39 @@
+pom-material:
+  -
+    left: 'Absorbcja wody'
+    right: 'bardzo mała'
+  -
+    left: 'Wytrzymałość i twardość'
+    right: 'dobra'
+
+  - left: 'Odporność cieplna'
+    right: 'dobra'
+
+  - left: 'Stabilność wymiarowa'
+    right: 'dobra'
+
+  - left: 'Obrabialność'
+    right: 'bardzo dobra'
+
+  - left: 'Odporność chemiczna'
+    right: 'dobra'
+
+
+pom-product:
+  - left: 'Nazwa'
+    right: 'Polioksymetylen'
+
+  - left: 'Nazwy używane'
+    right: 'Poliacetal / Poliformaldehyd'
+
+  - left: 'Skrót ISO 1043'
+    right: 'POM'
+
+  - left: 'Numer-CAS'
+    right: '9002-81-7'
+
+  - left: 'Rodzaj tworzywa'
+    right: 'Termoplastyczne'
+
+  - left: 'Wzór chemiczny'
+    right: '(CH2O)n'

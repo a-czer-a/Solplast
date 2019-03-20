@@ -1,18 +1,14 @@
 .l-contact-bar {
-  padding: 0 3rem;
+  padding: 0 4rem;
   height: 30px;
   background-color: $green;
   font-family: 'Open Sans';
   font-size: 12px;
+  font-weight: 600;
 
-  @include breakpoint(medium only) {
-    padding: 0 2rem;
+  @include breakpoint(medium down) {
+    padding: 0 calc(1.5rem - 7px);
   }
-  @include breakpoint(small only) {
-    padding: 0 0.75rem;
-  }
-
-  //font-weight: 600;
 
   .contact-bar__item {
     padding: 0;
