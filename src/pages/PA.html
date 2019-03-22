@@ -12,62 +12,251 @@
         <p class="product__nav">Tworzywa sztuczne<i class="fas fa-chevron-right"></i>PA</p>
         <h4 class="l-section__header">PA</h4>
         <div class="product__about">
-            {{#each pa.pa-about}}
-                <p class="about-text">
-                    {{about}}
-                </p>
-            {{/each}}
+            <p class="about-text">
+                {{pa.pa-about}}
+            </p>
+            <div class="grid-x align-center-middle product__important">
+                <svg class="cell shrink" xmlns="http://www.w3.org/2000/svg" width="79.348" height="58.348" viewBox="0 0 79.348 58.348"><defs><style>.a{fill:#7587a0;}.b{fill:#97a5b8;}</style></defs><g transform="translate(-539.84 -814.224)"><g transform="translate(539.84 814.224)"><g transform="translate(0)"><rect class="a" width="26.389" height="26.389" transform="translate(18.66 21.028) rotate(45)"/><rect class="b" width="26.389" height="26.389" transform="translate(40.215) rotate(45)"/><rect class="a" width="26.389" height="26.389" transform="translate(60.687 21.028) rotate(45)"/></g></g></g></svg>
+                <div class="cell auto ">
+                    <h6 class="product__important-text">{{pa.pa-short}}</h6>
+                </div>
+
+            </div>
+
         </div>
     </div>
 
     <div class="l-section info__container">
         <!-- INFO TABLE -->
-        <div class="l-text__container">
-            <table class="l-table unstriped">
-                <tbody class="table__body">
-                {{#each pa.pa-product}}
-                <tr>
-                    <th class="table__head">{{left}}</th>
-                    <td class="table__cell">{{right}}</td>
-                </tr>
-                {{/each}}
-                </tbody>
-            </table>
+        <div class="grid-x product__about">
+            <div class="cell small-12 large-6 grid-x">
+                <div class="cell small-12"><h5 class="product__subtitle">Informacje ogólne</h5></div>
+                <div class="cell small-12 info__table--bottom">
+                    <table class="l-table unstriped">
+                        <tbody class="table__body">
+                        {{#each pa.pa-product}}
+                        <tr>
+                            <th class="table__head">{{left}}</th>
+                            <td class="table__cell">{{right}}</td>
+                        </tr>
+                        {{/each}}
+                        <tr>
+                            <th class="table__head">Wzór chemiczny</th>
+                            <td class="table__cell">C<sub>6</sub>H<sub>11</sub>NO</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="cell small-12 large-6 grid-x">
+                <div class="cell small-12"><h5 class="product__subtitle">Właściwości materiału</h5></div>
+                <div class="cell small-12">
+                    <table class="l-table unstriped">
+                        <tbody>
+                        {{#each pa.pa-material}}
+                        <tr>
+                            <th class="table__head">{{left}}</th>
+                            <td class="table__cell">{{right}}</td>
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- USE -->
+            <div class="cell small-12">
+                <div class="cell small-12 ">
+                    <h5 class="product__subtitle u--margin2">Zastosowanie</h5></div>
+                <div class="cell small-12">
+                <div class="product__use">
+                        <ul class="product__use-list">
+                            {{#each pa.pa-use}}
+                            <li class="product__use-item">
+                                <i class="fas fa-check"></i> {{this}}
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!---->
-
-    <div class="l-section info__container">
-        div.grid-x
-    <!-- MATERIAL TABLE -->
-        <div class="l-text__container">
-            <table class="l-table unstriped">
-                <tbody>
-                {{#each pa.pa-material}}
-                <tr>
-                    <th class="table__head">{{left}}</th>
-                    <td class="table__cell">{{right}}</td>
-                </tr>
-                {{/each}}
-                </tbody>
-            </table>
-        </div>
-    </div>
 
     <!-- GALLERY -->
     <div class="grid-x gallery__container">
         <div class="cell small-12 medium-4">
-            <img src="{{root}}/assets/img/pa-500.jpg" alt="Pręty z poliamidu">
+            <img class="gallery__item"
+                 srcset="{{root}}assets/img/pa-650.jpg 640w, {{root}}assets/img/pa-500.jpg 900w"
+                 src="{{root}}/assets/img/pa-650.jpg"
+                 alt="Pręty z poliamidu">
         </div>
         <div class="cell small-12 medium-4">
-            <img src="{{root}}/assets/img/pa-500.jpg" alt="Pręty z poliamidu">
+            <img class="gallery__item"
+                 srcset="{{root}}assets/img/pa-650.jpg 640w, {{root}}assets/img/pa-500.jpg 900w"
+                 src="{{root}}/assets/img/pa-650.jpg"
+                 alt="Pręty z poliamidu">
         </div>
         <div class="cell small-12 medium-4">
-            <img src="{{root}}/assets/img/pa-500.jpg" alt="Pręty z poliamidu">
+            <img class="gallery__item"
+                 srcset="{{root}}assets/img/pa-650.jpg 640w, {{root}}assets/img/pa-500.jpg 900w"
+                 src="{{root}}/assets/img/pa-650.jpg"
+                 alt="Pręty z poliamidu">
         </div>
     </div>
     <!---->
-    <!--{{> sticky-navigation}}-->
+
+    <!-- TYPES -->
+    <div class="l-section">
+        <h5>Dostępne gatunki</h5>
+            <ul class="tabs product__tabs u--margin2 text-center grid-x grid-margin-x align-center" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" data-tabs id="deeplinked-tabs">
+                <li class="tabs-title is-active product__type "><a class="product__tab-anchor" href="#pa6e" aria-selected="true">PA 6 E</a></li>
+                <li class="tabs-title product__type"><a class="product__tab-anchor" href="#pa6g">PA 6 G</a></li>
+                <li class="tabs-title product__type"><a class="product__tab-anchor" href="#pa6gf">PA 6 GF</a></li>
+                <li class="tabs-title product__type"><a class="product__tab-anchor" href="#pa66">PA 6.6</a></li>
+                <li class="tabs-title product__type"><a class="product__tab-anchor" href="#pa6mos2">PA 6 MoS2</a></li>
+                <li class="tabs-title product__type"><a class="product__tab-anchor" href="#pa6olej">PA 6 + olej</a></li>
+            </ul>
+
+        <div class="product__about">
+            <div class="tabs-content tabs-content--fix" data-tabs-content="deeplinked-tabs">
+
+                <!-- PA 6 E -->
+                <div class="tabs-panel is-active" id="pa6e">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p>{{pa.pa6e}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                    <h6 class="product__catalog-title">Katalog wyrobów</h6>
+                    <div class="grid-x">
+                        <div class="cell shrink">
+                            <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                        </div>
+                        <div class="cell auto">
+                            <a class="product__download" href="{{root}}assets/img/download/PA/PA6E-prety.pdf" target="_blank">Pa 6 E &ndash; pręty</a></div>
+                    </div>
+                    <div class="grid-x u-padding-top">
+                        <div class="cell shrink">
+                            <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                        </div>
+                        <div class="cell auto">
+                            <a class="product__download" href="{{root}}assets/img/download/PA/PA6E-plyty.pdf" target="_blank">Pa 6 E &ndash; płyty</a></div>
+                    </div>
+                    <div class="grid-x u-padding-top">
+                        <div class="cell shrink">
+                            <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                        </div>
+                        <div class="cell auto">
+                            <a class="product__download" href="{{root}}assets/img/download/PA/PA6E-tuleje.pdf" target="_blank">Pa 6 E &ndash; tuleje</a></div>
+                    </div>
+                </div>
+             <!---->
+
+                <!-- PA 6 G-->
+                <div class="tabs-panel" id="pa6g">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p>{{pa.pa6g}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="{{root}}assets/img/download/PA/PA6G.pdf" target="_blank">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                    <h6 class="product__catalog-title">Katalog wyrobów</h6>
+                    <div class="grid-x">
+                        <div class="cell shrink">
+                            <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                        </div>
+                        <div class="cell auto">
+                            <a class="product__download" href="{{root}}assets/img/download/PA/PA6G-prety.pdf" target="_blank">Pa 6 G &ndash; pręty</a></div>
+                    </div>
+                    <div class="grid-x u-padding-top">
+                        <div class="cell shrink">
+                            <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                        </div>
+                        <div class="cell auto">
+                            <a class="product__download" href="{{root}}assets/img/download/PA/PA6G-plyty.pdf" target="_blank">Pa 6 G &ndash; płyty</a></div>
+                    </div>
+                </div>
+                <!---->
+
+                <!-- PA 6 MoS2-->
+                <div class="tabs-panel" id="pa6mos2">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p>{{pa.pa6mos2}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                    <h6 class="product__catalog-title">Katalog wyrobów</h6>
+                    <div class="grid-x">
+                        <div class="cell shrink">
+                            <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                        </div>
+                        <div class="cell auto">
+                            <a class="product__download" href="{{root}}assets/img/download/PA/PA6MOS2.pdf" target="_blank">Pa 6 MoS2</a></div>
+                    </div>
+                </div>
+                <div class="tabs-panel" id="pa6olej">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p>{{pa.pa6olej}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-panel" id="pa66">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p>{{pa.pa66}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-panel" id="pa6gf">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p>{{pa.pa6gf}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!---->
     {{> footer}}
 </div>

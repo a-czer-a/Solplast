@@ -1,6 +1,6 @@
 pa-material:
   -
-    left: 'Absorbcja wody'
+    left: 'Absorpcja wody'
     right: 'bardzo dobra'
   -
     left: 'Wytrzymałość i twardość'
@@ -24,7 +24,7 @@ pa-product:
     right: 'poliamid'
 
   - left: 'Nazwy używane'
-    right: 'perlon / nylon'
+    right: 'perlon, nylon'
 
   - left: 'Skrót ISO 1043'
     right: 'PA'
@@ -35,8 +35,56 @@ pa-product:
   - left: 'Rodzaj tworzywa'
     right: 'termoplastyczne'
 
-  - left: 'Wzór chemiczny'
-    right: 'C6H11NO'
+#  - left: 'Wzór chemiczny'
+#    right: 'C6H11NO'
 
-pa-about:
-  - about: 'Poliamidy to półkrystaliczne tworzywa termoplastyczne, otrzymywane głównie w wyniku polikondensacji. Cyfra przy skrócie w nazwie gatunku wskazuje na liczbę atomów węgla w podstawowej strukturze molekularnej. Wysoka skłonność do absorpcji wilgoci nadaje PA sztywność i twardość, co tworzy je wytrzymałymi i odpornymi na ścieranie oraz nadaje im doskonałe właściwości ślizgowe.'
+
+pa-types:
+  -
+    type: 'PA 6E'
+  -
+    type: 'PA 6G'
+  -
+    type: 'PA 6 MoS2'
+  -
+    type: 'PA6 + olej'
+  -
+    type: 'PA 6GF'
+  -
+    type: 'PA 6.6'
+  -
+    type: 'PA 12'
+
+
+pa-use:
+  - 'koła zębate'
+  - 'koła pasowe'
+  - 'koła łańcuchowe'
+  - 'łożyska ślizgowe'
+  - 'wkładki ślizgowe'
+  - 'tuleje'
+  - 'rolki napinające'
+  - 'rolki prowadzące'
+  - 'skrobaki'
+  - 'kołnierze'
+  - 'pierścienie uszczelniające'
+
+
+
+pa6e: 'Wytłaczany gatunek poliamidu, przeznaczony do ogólnego zastosowania na elementy konstrukcyjne, łączy w sobie dobre właściwości mechaniczne, sztywność oraz dużą zdolność do tłumienia drgań.'
+
+pa6g: 'Odlewany gatunek poliamidu. W porównaniu z gatunkiem wytłaczanym charakteryzuje się lepszymi właściwościami mechanicznymi oraz wyższą odpornością na ścieranie. Cechuje się również dobrą obrabialnością, zdolnością tłumienia drgań, jak i wytrzymałością zmęczeniową. Sposób jego wytwarzania daje możliwość uzyskiwania większych rozmiarów.'
+
+pa6mos2: 'Odmiana poliamidu modyfikowana dwusiarczkiem molibdenu. Dodatek ten poprawia jego właściwości ślizgowe oraz zwiększa odporność na ścieranie.'
+
+pa66: 'Wytłaczany gatunek poliamidu, którego właściwości fizyczne zbliżone są do poliamidu odlewanego PA 6 G. W porównaniu z PA 6 E charakteryzuje się wyższą wytrzymałością mechaniczną, odpornością cieplną oraz odpornością na pełzanie, ale jego udarność i zdolność tłumienia drgań są mniejsze.'
+
+pa6olej: 'Gatunek poliamidu modyfikowany olejem mineralnym charakteryzuje się niskim współczynnikiem tarcia. Wykorzystywany głównie na niesmarowane części maszyn.'
+
+pa6gf: 'Gatunek poliamidu z dodatkiem 30% włókna szklanego, charakteryzujący się dużą stabilnością wymiarową, odpornością na ścieranie oraz, w porównaniu z podstawowym gatunkiem, wyższą temperaturą pracy.'
+
+
+
+pa-short: 'Bardzo wysoka wytrzymałość mechaniczna, twardość i sztywność.'
+
+pa-about: 'Poliamidy to półkrystaliczne tworzywa termoplastyczne, otrzymywane głównie w wyniku polikondensacji. Cyfra przy skrócie w nazwie gatunku wskazuje na liczbę atomów węgla w podstawowej strukturze molekularnej. Wysoka skłonność do absorpcji wilgoci nadaje PA sztywność i twardość, co tworzy je wytrzymałymi i odpornymi na ścieranie oraz nadaje im doskonałe właściwości ślizgowe.'

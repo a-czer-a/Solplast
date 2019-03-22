@@ -1,0 +1,57 @@
+pvdf-material:
+  -
+    left: 'Absorpcja wody'
+    right: 'bardzo mała'
+  -
+    left: 'Wytrzymałość i twardość'
+    right: 'dobra'
+
+  - left: 'Odporność cieplna'
+    right: 'bardzo dobra'
+
+  - left: 'Stabilność wymiarowa'
+    right: 'dobra'
+
+  - left: 'Obrabialność'
+    right: 'dobra'
+
+  - left: 'Odporność chemiczna'
+    right: 'bardzo dobra'
+
+
+pvdf-product:
+  - left: 'Nazwa'
+    right: 'polifluorek winylidenu'
+
+  - left: 'Nazwy używane'
+    right: 'polifluorek winylidenu'
+
+  - left: 'Skrót ISO 1043'
+    right: '24937-79-9'
+
+  - left: 'Numer-CAS'
+    right: '9002-86-2'
+
+  - left: 'Rodzaj tworzywa'
+    right: 'termoplastyczne'
+
+  - left: 'Wzór chemiczny'
+    right: 'C2H2F2'
+
+
+pvdf-use:
+  -
+    use: 'uszczelnienia'
+  -
+    use: 'kołnierze'
+  -
+    use: 'elementy ślizgowe'
+  -
+    use: 'korpusy zaworów'
+  -
+    use: 'obudowy'
+
+
+pvdf-about:
+  -
+    about: 'Polifluorek winylidenu wyróżnia się dobrymi właściwościami ślizgowymi oraz odpornością na promieniowanie UV. PVDF charakteryzuje się połączeniem bardzo dobrych właściwości mechanicznych, cieplnych, elektrycznych oraz ma wysoką odporność chemiczną. Dzięki wszechstronności oraz szerokiemu dopuszczalnemu zakresowi temperatur PVDF jest często stosowany w przemyśle medycznym.'

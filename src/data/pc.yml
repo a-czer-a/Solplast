@@ -1,0 +1,67 @@
+pc-material:
+  -
+    left: 'Absorpcja wody'
+    right: 'dobra'
+  -
+    left: 'Wytrzymałość i twardość'
+    right: 'dobra'
+
+  - left: 'Odporność cieplna'
+    right: 'dobra'
+
+  - left: 'Stabilność wymiarowa'
+    right: 'dobra'
+
+  - left: 'Obrabialność'
+    right: 'dobra'
+
+  - left: 'Odporność chemiczna'
+    right: 'dobra'
+
+
+pc-product:
+  - left: 'Nazwa'
+    right: 'poliwęglan'
+
+  - left: 'Nazwy używane'
+    right: 'makrolon'
+
+  - left: 'Skrót ISO 1043'
+    right: 'PC'
+
+  - left: 'Numer-CAS'
+    right: '64-10-8'
+
+  - left: 'Rodzaj tworzywa'
+    right: 'termoplastyczne'
+
+  - left: 'Wzór chemiczny'
+    right: 'C15H16O2 + CCl2O'
+
+
+pc-types:
+  -
+    type: 'PC'
+  -
+    type: 'PC GF'
+
+
+pc-use:
+  -
+    use: 'pojemniki'
+  -
+    use: 'osłony maszyn'
+  -
+    use: 'precyzyjne detale urządzeń medycznych'
+  -
+    use: 'elementy elektroizolacyjne'
+
+
+pc-short:
+  -
+    short: 'Bezbarwny, stabilny rozmiarowo'
+
+
+pc-about:
+  -
+    about: 'Poliwęglan to termoplastyczne półprzeźroczyste tworzywo konstrukcyjne. Charakteryzuje się szerokim zakresem zastosowań oraz wysoką jakością. Jest odporny na uderzenia w szerokim zakresie temperaturowym. PC jest materiałem bardzo twardym, który może być poddawany sterylizacji i używany jako izolator elektryczny. Będąc tworzywem transparentnym, poliwęglan używany jest m.in. do produkcji osłon ochronnych maszyn i okienek wskaźników.'

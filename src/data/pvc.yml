@@ -1,0 +1,59 @@
+pvc-material:
+  -
+    left: 'Absorpcja wody'
+    right: 'bardzo mała'
+  -
+    left: 'Wytrzymałość i twardość'
+    right: 'dobra'
+
+  - left: 'Odporność cieplna'
+    right: 'bardzo mała'
+
+  - left: 'Stabilność wymiarowa'
+    right: 'dobra'
+
+  - left: 'Obrabialność'
+    right: 'dobra'
+
+  - left: 'Odporność chemiczna'
+    right: 'bardzo dobra'
+
+
+pvc-product:
+  - left: 'Nazwa'
+    right: 'polichlorek winylu'
+
+  - left: 'Nazwy używane'
+    right: 'polichlorek winylu'
+
+  - left: 'Skrót ISO 1043'
+    right: 'PVC'
+
+  - left: 'Numer-CAS'
+    right: '9002-86-2'
+
+  - left: 'Rodzaj tworzywa'
+    right: 'termoplastyczne'
+
+  - left: 'Wzór chemiczny'
+    right: 'C2H3Cl'
+
+
+pvc-use:
+  -
+    use: 'uszczelnienia'
+  -
+    use: 'korpusy zaworów'
+  -
+    use: 'obudowy urządzeń'
+  -
+    use: 'wykładziny chemoodporne'
+  -
+    use: 'zbiorniki'
+  -
+    use: 'wanny galwaniczne'
+
+
+pvc-about:
+  -
+    about: 'Polichlorek winylu to tworzywo polimerowe otrzymywane w procesie polimeryzacji chlorku etylenu. PVC jest tworzywem niepalnym o wysokiej wytrzymałości mechanicznej i module sprężystości oraz znakomitej odporności chemicznej. Zakres temperaturowy, w którym PVC zachowuje swoje właściwości, to -15 stopni Celsjusza do +60 stopni Celsjusza. PVC może być spawane, zgrzewane lub klejone.'

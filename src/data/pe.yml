@@ -1,0 +1,78 @@
+pe-material:
+  -
+    left: 'Absorpcja wody'
+    right: 'bardzo mała'
+  -
+    left: 'Wytrzymałość i twardość'
+    right: 'dobra'
+
+  - left: 'Odporność cieplna'
+    right: 'bardzo mała'
+
+  - left: 'Stabilność wymiarowa'
+    right: 'dobra'
+
+  - left: 'Obrabialność'
+    right: 'dobra'
+
+  - left: 'Odporność chemiczna'
+    right: 'bardzo dobra'
+
+
+pe-product:
+  - left: 'Nazwa'
+    right: 'polietylen'
+
+  - left: 'Nazwy używane'
+    right: 'polietylen'
+
+  - left: 'Skrót ISO 1043'
+    right: 'PE'
+
+  - left: 'Numer-CAS'
+    right: '9002-88-4'
+
+  - left: 'Rodzaj tworzywa'
+    right: 'termoplastyczne'
+
+  - left: 'Wzór chemiczny'
+    right: 'C2H4'
+
+
+pe-types:
+  -
+    type: 'PE 300'
+  -
+    type: 'PEHD 500'
+  -
+    type: 'PE-UHMW 1000'
+  -
+    type: 'PE 1000 R'
+
+
+pe-use:
+  -
+    use: 'listwy ślizgowe'
+  -
+    use: 'gwiazdy'
+  -
+    use: 'łuki'
+  -
+    use: 'ślimaki'
+  -
+    use: 'stoły rozbiorowe'
+  -
+    use: 'elementy transporterów'
+  -
+    use: 'koła pasowe'
+  -
+    use: 'rolki'
+  -
+    use: 'napinacze łańcuchów'
+  -
+    use: 'wykładziny zbiorników'
+
+
+
+pe-about:
+  - about: 'Polietyleny należą do grupy półkrystalicznych termoplastów, otrzymywane są w wyniku polimeryzacji wysokociśnieniowej lub niskociśnieniowej (PE-HD). Są tworzywami łatwymi w obróbce z bardzo szerokim zakresem zastosowań. Niższy ciężar właściwy w porównaniu z innymi termoplastami zawdzięczają niskiej gęstości. Polietyleny dzięki swoim właściwościom znalazły bardzo szerokie zastosowanie w przemyśle spożywczym oraz jako części maszyn.'

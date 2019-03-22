@@ -1,5 +1,6 @@
 .info__container {
   padding-top: 0;
+  min-height: 200px;
 }
 
 .product__nav {
@@ -13,22 +14,169 @@
   }
 }
 
+.product__subtitle {
+  color: $blue;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-bottom: 6px;
+  text-transform: uppercase;
+}
+.product__use {
+  background-color: $white;
+  //padding-bottom: 2.3rem;
+
+  .product__use-list {
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .product__use-item {
+    padding-left: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    color: $blue;
+
+    .fas {
+      color: $green;
+      font-size: 90%;
+      padding-right: 20px;
+    }
+  }
+}
+
+.product__important {
+  //align-self: center;
+  color: $blue;
+  margin: 50px 0;
+
+  //@include breakpoint(small only) {
+  //  padding-top: 40px;
+  //}
+}
+
+.product__important-text {
+  font-weight: 700;
+  padding-top: 15px;
+  padding-left: 30px;
+  margin-bottom: 0;
+}
+
+.product__type {
+  min-width: 130px;
+  padding: 15px 20px;
+  margin: 0 15px 20px;
+  background-color: $green;
+  color: $white;
+  border: 1px solid $green;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  &:hover {
+    background-color: darken($green, 5%);
+    > a {
+      color: $white;
+    }
+  }
+
+  &:hover > .product__tab-anchor,
+  .product__tab-anchor .is-active,
+  .tabs-title > a:focus,
+  .tabs-title > a[aria-selected='true'] {
+    background-color: darken($green, 5%);
+    color: $white;
+  }
+
+  .product__tab-anchor {
+    color: $white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    background-color: $green;
+    transition: all 0.2s ease-in;
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .product__tab-anchor:focus,
+  .product__tab-anchor[aria-selected="true"] {
+    background-color: $white;
+    color: $green;
+    transition: all 0.2s ease-in;
+  }
+}
+
+.tabs-title {
+  &:hover > .product__type-anchor {
+    color: $white;
+  }
+}
+
+.tabs-title .product__type .is-active {
+    background-color: $white;
+    color: $green;
+    border: 1px solid $green;
+}
+
+.product__tabs .is-active {
+  background-color: $white;
+}
+
+.product__tabs > product__tab-anchor:focus,
+.product__tabs > product__tab-anchor[aria-selected='true'] {
+  color: #green;
+  background-color: $white;
+  font-weight: 600;
+}
+
+.product__download {
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding-left: 15px;
+  cursor: pointer;
+
+  @include breakpoint(small only) {
+    padding-left: 0;
+  }
+}
+
+.product__download-icon {
+  width: 25px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.product__download-text {
+  text-align: left;
+}
+
 .product__about {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
 
-  //@media screen and (max-width: 840px) {
-  //  margin: 0 120px 0 auto;
-  //}
+  @include breakpoint(xlarge) {
+    width: 70%;
+  }
 
   @include breakpoint(small only) {
     width: 100%;
-    //margin: 0 80px 0 auto;
+  }
+}
+
+.product__catalog-title {
+  margin: 20px 0;
+  font-weight: 700;
+
+  @include breakpoint(small only) {
+    margin-top: 40px;
   }
 }
 
 .gallery__container {
-  margin: 1.5rem 0;
-  padding-bottom: 0.5rem;
+  margin: 2rem 0 0;
+  //padding-bottom: 0.5rem;
+
+  .gallery__item {
+    width: 100%;
+  }
 }

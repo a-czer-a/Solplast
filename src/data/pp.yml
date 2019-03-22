@@ -1,0 +1,64 @@
+pp-material:
+  -
+    left: 'Absorpcja wody'
+    right: 'bardzo mała'
+  -
+    left: 'Wytrzymałość i twardość'
+    right: 'dobra'
+
+  - left: 'Odporność cieplna'
+    right: 'bardzo mała'
+
+  - left: 'Stabilność wymiarowa'
+    right: 'bardzo mała'
+
+  - left: 'Obrabialność'
+    right: 'bardzo dobra'
+
+  - left: 'Odporność chemiczna'
+    right: 'bardzo dobra'
+
+
+pp-product:
+  - left: 'Nazwa'
+    right: 'polipropylen'
+
+  - left: 'Nazwy używane'
+    right: 'polipropylen'
+
+  - left: 'Skrót ISO 1043'
+    right: 'PP'
+
+  - left: 'Numer-CAS'
+    right: '9003-07-0'
+
+  - left: 'Rodzaj tworzywa'
+    right: 'termoplastyczne'
+
+  - left: 'Wzór chemiczny'
+    right: 'C3H3'
+
+
+pp-types:
+  -
+    type: 'PP-H'
+  -
+    type: 'PP GF'
+  -
+    type: 'PP-HT'
+
+
+pp-use:
+  -
+    use: 'stoły wykrojników'
+  -
+    use: 'obudowy filtrów'
+  -
+    use: 'zbiorniki'
+  -
+    use: 'elementy pomp'
+
+
+pp-about:
+  -
+    about: 'Poliprepyleny otrzymywane są w wyniku polimeryzacji propylenu, tak samo jak polietyleny należą do grupy poliolefin. Posiadają jednak wyższą odporność chemiczną, sztywność oraz wyższą temperaturę topnienia. Polipropyleny są łatwe w obróbce i uniwersalne w użyciu. Niska gęstość (ok. 0,92g/cm3) wpływa na ich niską wagę. Polipropyleny są często używane do produkcji rur instalacyjnych do wody oraz do rur ściekowych.'

@@ -1,0 +1,62 @@
+pmma-material:
+  -
+    left: 'Absorpcja wody'
+    right: 'dobra'
+  -
+    left: 'Wytrzymałość i twardość'
+    right: 'dobra'
+
+  - left: 'Odporność cieplna'
+    right: 'dobra'
+
+  - left: 'Stabilność wymiarowa'
+    right: 'dobra'
+
+  - left: 'Obrabialność'
+    right: 'dobra'
+
+  - left: 'Odporność chemiczna'
+    right: 'dobra'
+
+
+pmma-product:
+  - left: 'Nazwa'
+    right: 'poliwęglan'
+
+  - left: 'Nazwy używane'
+    right: 'makrolon'
+
+  - left: 'Skrót ISO 1043'
+    right: 'PC'
+
+  - left: 'Numer-CAS'
+    right: '64-10-8'
+
+  - left: 'Rodzaj tworzywa'
+    right: 'termoplastyczne'
+
+  - left: 'Wzór chemiczny'
+    right: 'C15H16O2 + CCl2O'
+
+
+pmma-use:
+  -
+    use: 'panele reklamowe'
+  -
+    use: 'zadaszenia'
+  -
+    use: 'okna'
+  -
+    use: 'stojaki'
+  -
+    use: 'stoiska reklamowe'
+
+
+pmma-short:
+  -
+    short: 'Doskonała optyczność oraz stabilność rozmiarowa'
+
+
+pmma-about:
+  -
+    about: 'Polimetakrylan metylu to sztywne (kruche), transparentne tworzywo termoplastyczne, odporne na zarysowania oraz łatwe do polerowania. Poza odpornością na promieniowanie UV charakteryzuje się szerokim zakresem temperaturowym: -40 stopni Celsjusza do +70 stopni Celsjusza. Dzięki swoim właściwościom najczęściej stosowany jest w branży reklamowej.'

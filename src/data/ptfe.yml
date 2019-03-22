@@ -1,42 +1,57 @@
 ptfe-material:
   -
-    left: 'Absorbcja wody'
+    left: 'Absorpcja wody'
     right: 'bardzo mała'
   -
     left: 'Wytrzymałość i twardość'
     right: 'bardzo mała'
-
-  - left: 'Odporność cieplna'
+  -
+    left: 'Odporność cieplna'
     right: 'bardzo dobra'
-
-  - left: 'Stabilność wymiarowa'
+  -
+    left: 'Stabilność wymiarowa'
     right: 'dobra'
-
-  - left: 'Obrabialność'
+  -
+    left: 'Obrabialność'
     right: 'bardzo dobra'
-
-  - left: 'Odporność chemiczna'
+  -
+    left: 'Odporność chemiczna'
     right: 'bardzo dobra'
 
 
 ptfe-product:
-  - left: 'Nazwa'
+  -
+    left: 'Nazwa'
     right: 'politetrafluoroetylen'
-
-  - left: 'Nazwy używane'
+  -
+    left: 'Nazwy używane'
     right: 'policzterofluoroetylen, teflon®'
-
-  - left: 'Skrót ISO 1043'
+  -
+    left: 'Skrót ISO 1043'
     right: 'PTFE'
-
-  - left: 'Numer-CAS'
+  -
+    left: 'Numer-CAS'
     right: '9014-83-9'
-
-  - left: 'Rodzaj tworzywa'
+  -
+    left: 'Rodzaj tworzywa'
     right: 'termoplastyczne'
-
-  - left: 'Wzór chemiczny'
+  -
+    left: 'Wzór chemiczny'
     right: 'C2F4'
+
+
+ptfe-types:
+  -
+    type: 'PTFE'
+  -
+    type: 'PTFE GF'
+  -
+    type: 'PTFE + węgiel'
+  -
+    type: 'PTFE + grafit'
+  -
+    type: 'PTFE + brąz'
+
 
 ptfe-about:
   -

@@ -3,6 +3,10 @@
   font-family: $body-font-family;
 }
 
+.sticky {
+  z-index: 5;
+}
+
 .l-container {
   margin: 0 auto;
 }
@@ -42,8 +46,6 @@
   }
 }
 
-
-
 .l-section {
   padding: 2.3rem calc(4rem - 16px) 0.6rem;
 
@@ -78,6 +80,9 @@
   }
 }
 
+.l-section__subheader {
+
+}
 .l-text__container {
   width: 70%;
   margin: 0 auto;
@@ -90,4 +95,31 @@
 
 .u-extra-margin--bottom {
   margin-bottom: 15px;
+}
+
+
+.tabs-content--fix {
+  min-height: 100px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.u--margin {
+  margin: 100px 0 30px 0;
+
+  @include breakpoint(small only) {
+    margin: 130px 0 30px 0;
+  }
+}
+
+.u--margin2 {
+  margin-top: 30px;
+}
+
+.u-padding-top {
+  padding-top: 20px;
+}
+
+.u-border-left {
+  //border-left: 2px solid $green;
 }

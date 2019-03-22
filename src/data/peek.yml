@@ -1,0 +1,67 @@
+peek-material:
+  -
+    left: 'Absorpcja wody'
+    right: 'bardzo mała'
+  -
+    left: 'Wytrzymałość i twardość'
+    right: 'bardzo dobra'
+
+  - left: 'Odporność cieplna'
+    right: 'bardzo dobra'
+
+  - left: 'Stabilność wymiarowa'
+    right: 'bardzo dobra'
+
+  - left: 'Obrabialność'
+    right: 'dobra'
+
+  - left: 'Odporność chemiczna'
+    right: 'bardzo dobra'
+
+
+peek-product:
+  - left: 'Nazwa'
+    right: 'polieteroeteroketon'
+
+  - left: 'Nazwy używane'
+    right: 'polieteroeteroketon'
+
+  - left: 'Skrót ISO 1043'
+    right: 'PEEK'
+
+  - left: 'Numer-CAS'
+    right: '29658-26-2'
+
+  - left: 'Rodzaj tworzywa'
+    right: 'termoplastyczne'
+
+  - left: 'Wzór chemiczny'
+    right: 'C19H14O3'
+
+
+peek-types:
+  -
+    type: 'PEEK'
+  -
+    type: 'PEEK GF'
+  -
+    type: 'PEEK CA'
+
+
+peek-use:
+  -
+    use: 'łożyska ślizgowe'
+  -
+    use: 'pierścienie tłokowe'
+  -
+    use: 'koła zębate'
+  -
+    use: 'uszczelnienia'
+  -
+    use: 'łopatki pomp'
+
+
+peek-about:
+  -
+    about: 'PEEK należy̨ do grupy tworzyw wysokogatunkowych. To tworzywo bardzo wytrzymałe z dużą odpornością cieplną i chemiczną. Charakteryzuje się dużą odpornością na ścieranie oraz jest stabilny rozmiarowo. Może być poddawany sterylizacji (parą wodną), dlatego stosowany jest często w medycynie oraz przemyśle spożywczym.
+'

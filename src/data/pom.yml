@@ -1,39 +1,80 @@
 pom-material:
   -
-    left: 'Absorbcja wody'
+    left: 'Absorpcja wody'
     right: 'bardzo mała'
   -
     left: 'Wytrzymałość i twardość'
     right: 'dobra'
-
-  - left: 'Odporność cieplna'
+  -
+    left: 'Odporność cieplna'
     right: 'dobra'
-
-  - left: 'Stabilność wymiarowa'
+  -
+    left: 'Stabilność wymiarowa'
     right: 'dobra'
-
-  - left: 'Obrabialność'
+  -
+    left: 'Obrabialność'
     right: 'bardzo dobra'
-
-  - left: 'Odporność chemiczna'
+  -
+    left: 'Odporność chemiczna'
     right: 'dobra'
 
 
 pom-product:
-  - left: 'Nazwa'
-    right: 'Polioksymetylen'
-
-  - left: 'Nazwy używane'
-    right: 'Poliacetal / Poliformaldehyd'
-
-  - left: 'Skrót ISO 1043'
+  -
+    left: 'Nazwa'
+    right: 'polioksymetylen'
+  -
+    left: 'Nazwy używane'
+    right: 'poliacetal / poliformaldehyd'
+  -
+    left: 'Skrót ISO 1043'
     right: 'POM'
-
-  - left: 'Numer-CAS'
+  -
+    left: 'Numer-CAS'
     right: '9002-81-7'
-
-  - left: 'Rodzaj tworzywa'
+  -
+    left: 'Rodzaj tworzywa'
     right: 'Termoplastyczne'
-
-  - left: 'Wzór chemiczny'
+  -
+    left: 'Wzór chemiczny'
     right: '(CH2O)n'
+
+
+pom-types:
+  -
+    type: 'POM C'
+  -
+    type: 'POM H'
+  -
+    type: 'POM antystatyczny'
+  -
+    type: 'POM + PE'
+  -
+    type: 'POM + PTFE'
+  -
+    type: 'POM GF30'
+
+
+pom-use:
+  -
+    use: 'precyzyjne części maszyn'
+  -
+    use: 'prowadnice'
+  -
+    use: 'części pomp'
+  -
+    use: 'rolki'
+  -
+    use: 'skrobaki'
+  -
+    use: 'uszczelnienia'
+  -
+    use: 'elementy ślizgowe'
+  -
+    use: 'koła zębate'
+  -
+    use: 'korpusy zaworów'
+
+
+pom-about:
+  - about: 'Polioksymetylen to konstrukcyjne tworzywo termoplastyczne, które powstaje w wyniku polimeryzacji formaldehydu. Dzięki chemicznej strukturze POM również nazywany jest poliacetalem. Posiada wysoką krystaliczność i należy do najsztywniejszych i najtwardszych termoplastycznych tworzyw konstrukcyjnych charakteryzujących się: dobrą rozciągliwością, twardością powierzchni oraz niskim współczynnikiem tarcia. Polioksymetylen jest często używany do produkcji precyzyjnych detali w inżynierii precyzyjnej oraz służy jako zamiennik metali.'

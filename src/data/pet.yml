@@ -1,0 +1,68 @@
+pet-material:
+  -
+    left: 'Absorpcja wody'
+    right: 'bardzo mała'
+  -
+    left: 'Wytrzymałość i twardość'
+    right: 'dobra'
+
+  - left: 'Odporność cieplna'
+    right: 'dobra'
+
+  - left: 'Stabilność wymiarowa'
+    right: 'bardzo dobra'
+
+  - left: 'Obrabialność'
+    right: 'dobra'
+
+  - left: 'Odporność chemiczna'
+    right: 'dobra'
+
+
+pet-product:
+  - left: 'Nazwa'
+    right: 'politereftalan etylenu'
+
+  - left: 'Nazwy używane'
+    right: ''
+
+  - left: 'Skrót ISO 1043'
+    right: 'PET'
+
+  - left: 'Numer-CAS'
+    right: '25038-59-9'
+
+  - left: 'Rodzaj tworzywa'
+    right: 'termoplastyczne'
+
+  - left: 'Wzór chemiczny'
+    right: 'C10H8O4'
+
+
+pet-types:
+  -
+    type: 'PET'
+  -
+    type: 'PET SL'
+
+
+pet-use:
+  -
+    use: 'panewki łożysk ślizgowych'
+  -
+    use: 'elementy łożysk tocznych'
+  -
+    use: 'tuleje prowadzące'
+  -
+    use: 'elementy pomp'
+  -
+    use: 'koła zębate'
+  -
+    use: 'prowadnice'
+  -
+    use: 'rolki'
+
+
+pet-about:
+  -
+    about: 'Politereftalany etylenu są termoplastycznymi nasyconymi poliestrami, które powstają w wyniku polikondensacji kwasu tereftalowego z glikolem etylowym. Tworzywa konstrukcyjne PET posiadają wysoką krystaliczność i są dobrymi materiałami ślizgowymi (niski współczynnik tarcia) z wysoką wytrzymałością mechaniczną. Tworzywa te są sztywne, stabilne rozmiarowo oraz bardzo wytrzymałe na niskie temperatury. Ich stabilność kształtu w cieple zbliża się do temperatury topnienia czyli 255 stopni Celsjusza. Politereftalany etylenu często stosowane są do produkcji elementów ślizgowych.'
