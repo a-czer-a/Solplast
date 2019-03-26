@@ -39,21 +39,22 @@ pvc-product:
     right: 'C2H3Cl'
 
 
+pvc-formats:
+  - 'płyty'
+  - 'pręty'
+  - 'tuleje'
+
+
 pvc-use:
-  -
-    use: 'uszczelnienia'
-  -
-    use: 'korpusy zaworów'
-  -
-    use: 'obudowy urządzeń'
-  -
-    use: 'wykładziny chemoodporne'
-  -
-    use: 'zbiorniki'
-  -
-    use: 'wanny galwaniczne'
+  - 'uszczelnienia'
+  - 'korpusy zaworów'
+  - 'obudowy urządzeń'
+  - 'wykładziny chemoodporne'
+  - 'zbiorniki'
+  - 'wanny galwaniczne'
 
 
-pvc-about:
-  -
-    about: 'Polichlorek winylu to tworzywo polimerowe otrzymywane w procesie polimeryzacji chlorku etylenu. PVC jest tworzywem niepalnym o wysokiej wytrzymałości mechanicznej i module sprężystości oraz znakomitej odporności chemicznej. Zakres temperaturowy, w którym PVC zachowuje swoje właściwości, to -15 stopni Celsjusza do +60 stopni Celsjusza. PVC może być spawane, zgrzewane lub klejone.'
+pvc-short: 'Z wysokim modułem sprężystości, niepalny.'
+
+
+pvc-about: 'Polichlorek winylu to tworzywo polimerowe otrzymywane w procesie polimeryzacji chlorku etylenu. PVC jest tworzywem niepalnym o wysokiej wytrzymałości mechanicznej i module sprężystości oraz znakomitej odporności chemicznej. Zakres temperaturowy, w którym PVC zachowuje swoje właściwości, to -15 stopni Celsjusza do +60 stopni Celsjusza. PVC może być spawane, zgrzewane lub klejone.'

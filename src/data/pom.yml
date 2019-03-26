@@ -55,26 +55,32 @@ pom-types:
     type: 'POM GF30'
 
 
+pom-c: ''
+pom-h: ''
+pom-anty: ''
+pom-pe: ''
+pom-ptfe: ''
+pom-gf30: ''
+
+
+pom-formats:
+  - 'płyty'
+  - 'pręty'
+  - 'tuleje'
+
+
 pom-use:
-  -
-    use: 'precyzyjne części maszyn'
-  -
-    use: 'prowadnice'
-  -
-    use: 'części pomp'
-  -
-    use: 'rolki'
-  -
-    use: 'skrobaki'
-  -
-    use: 'uszczelnienia'
-  -
-    use: 'elementy ślizgowe'
-  -
-    use: 'koła zębate'
-  -
-    use: 'korpusy zaworów'
+  - 'precyzyjne części maszyn'
+  - 'prowadnice'
+  - 'części pomp'
+  - 'rolki'
+  - 'skrobaki'
+  - 'uszczelnienia'
+  - 'elementy ślizgowe'
+  - 'koła zębate'
+  - 'korpusy zaworów'
 
 
-pom-about:
-  - about: 'Polioksymetylen to konstrukcyjne tworzywo termoplastyczne, które powstaje w wyniku polimeryzacji formaldehydu. Dzięki chemicznej strukturze POM również nazywany jest poliacetalem. Posiada wysoką krystaliczność i należy do najsztywniejszych i najtwardszych termoplastycznych tworzyw konstrukcyjnych charakteryzujących się: dobrą rozciągliwością, twardością powierzchni oraz niskim współczynnikiem tarcia. Polioksymetylen jest często używany do produkcji precyzyjnych detali w inżynierii precyzyjnej oraz służy jako zamiennik metali.'
+pom-short: 'Bardzo duża wytrzymałość, łatwy w obróbce.'
+
+pom-about: 'Polioksymetylen to konstrukcyjne tworzywo termoplastyczne, które powstaje w wyniku polimeryzacji formaldehydu. Dzięki chemicznej strukturze POM nazywany jest również poliacetalem. Ma wysoką krystaliczność i należy do najsztywniejszych i najtwardszych termoplastycznych tworzyw konstrukcyjnych. Charakteryzuje się: dobrą rozciągliwością, twardością powierzchni oraz niskim współczynnikiem tarcia. Polioksymetylen jest często używany do produkcji precyzyjnych detali w inżynierii precyzyjnej oraz służy jako zamiennik metali.'

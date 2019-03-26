@@ -39,24 +39,20 @@ pmma-product:
     right: 'C15H16O2 + CCl2O'
 
 
+pmma-formats:
+  - 'płyty'
+  - 'pręty'
+  - 'tuleje'
+
 pmma-use:
-  -
-    use: 'panele reklamowe'
-  -
-    use: 'zadaszenia'
-  -
-    use: 'okna'
-  -
-    use: 'stojaki'
-  -
-    use: 'stoiska reklamowe'
+  - 'panele reklamowe'
+  - 'zadaszenia'
+  - 'okna'
+  - 'stojaki'
+  - 'stoiska reklamowe'
 
 
-pmma-short:
-  -
-    short: 'Doskonała optyczność oraz stabilność rozmiarowa'
+pmma-short: 'Doskonała optyczność oraz stabilność rozmiarowa.'
 
 
-pmma-about:
-  -
-    about: 'Polimetakrylan metylu to sztywne (kruche), transparentne tworzywo termoplastyczne, odporne na zarysowania oraz łatwe do polerowania. Poza odpornością na promieniowanie UV charakteryzuje się szerokim zakresem temperaturowym: -40 stopni Celsjusza do +70 stopni Celsjusza. Dzięki swoim właściwościom najczęściej stosowany jest w branży reklamowej.'
+pmma-about: 'Polimetakrylan metylu to sztywne (kruche), transparentne tworzywo termoplastyczne, odporne na zarysowania oraz łatwe do polerowania. Poza odpornością na promieniowanie UV charakteryzuje się szerokim zakresem temperaturowym: -40 stopni Celsjusza do +70 stopni Celsjusza. Dzięki swoim właściwościom najczęściej stosowany jest w branży reklamowej.'

@@ -46,23 +46,26 @@ pet-types:
     type: 'PET SL'
 
 
+pet-formats:
+  - 'płyty'
+  - 'pręty'
+  - 'tuleje'
+
+pet: ''
+pet-sl: ''
+
+
 pet-use:
-  -
-    use: 'panewki łożysk ślizgowych'
-  -
-    use: 'elementy łożysk tocznych'
-  -
-    use: 'tuleje prowadzące'
-  -
-    use: 'elementy pomp'
-  -
-    use: 'koła zębate'
-  -
-    use: 'prowadnice'
-  -
-    use: 'rolki'
+  - 'panewki łożysk ślizgowych'
+  - 'elementy łożysk tocznych'
+  - 'tuleje prowadzące'
+  - 'elementy pomp'
+  - 'koła zębate'
+  - 'prowadnice'
+  - 'rolki'
 
 
-pet-about:
-  -
-    about: 'Politereftalany etylenu są termoplastycznymi nasyconymi poliestrami, które powstają w wyniku polikondensacji kwasu tereftalowego z glikolem etylowym. Tworzywa konstrukcyjne PET posiadają wysoką krystaliczność i są dobrymi materiałami ślizgowymi (niski współczynnik tarcia) z wysoką wytrzymałością mechaniczną. Tworzywa te są sztywne, stabilne rozmiarowo oraz bardzo wytrzymałe na niskie temperatury. Ich stabilność kształtu w cieple zbliża się do temperatury topnienia czyli 255 stopni Celsjusza. Politereftalany etylenu często stosowane są do produkcji elementów ślizgowych.'
+pet-short: 'Odporny chemicznie oraz stabilny rozmiarowo.'
+
+
+pet-about: 'Politereftalany etylenu są termoplastycznymi nasyconymi poliestrami, które powstają w wyniku polikondensacji kwasu tereftalowego z glikolem etylowym. Tworzywa konstrukcyjne PET posiadają wysoką krystaliczność i są dobrymi materiałami ślizgowymi (niski współczynnik tarcia) z dużą wytrzymałością mechaniczną. Tworzywa te są sztywne, stabilne rozmiarowo oraz bardzo wytrzymałe na niskie temperatury. Ich stabilność kształtu w cieple zbliża się do temperatury topnienia, czyli 255 stopni Celsjusza. Politereftalany etylenu często stosowane są do produkcji elementów ślizgowych.'

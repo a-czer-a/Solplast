@@ -113,7 +113,7 @@
 }
 
 .u--margin2 {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .u-padding-top {
@@ -123,3 +123,31 @@
 .u-border-left {
   //border-left: 2px solid $green;
 }
+
+
+// IMAGES
+
+//img {
+//  filter: blur(5px);
+//  -webkit-filter: blur(5px);
+//}
+//
+//img.loaded {
+//  filter: blur(0);
+//  -webkit-filter: blur(0);
+//}
+//
+//img {
+//  opacity: 0;
+//}
+//img:not(.initial) {
+//  transition: opacity 1s;
+//}
+//img.initial,
+//img.loaded,
+//img.error {
+//  opacity: 1;
+//}
+//img:not([src]) {
+//  visibility: hidden;
+//}

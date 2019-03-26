@@ -21,17 +21,16 @@
   padding-bottom: 6px;
   text-transform: uppercase;
 }
-.product__use {
+.product__list-container {
   background-color: $white;
-  //padding-bottom: 2.3rem;
 
-  .product__use-list {
+  .product__list {
     list-style-type: none;
     margin-left: 0;
     margin-bottom: 0;
   }
 
-  .product__use-item {
+  .product__list-item {
     padding-left: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 90%;
@@ -48,7 +47,7 @@
 .product__important {
   //align-self: center;
   color: $blue;
-  margin: 50px 0;
+  margin: 40px 0 60px;
 
   //@include breakpoint(small only) {
   //  padding-top: 40px;
@@ -173,10 +172,16 @@
 }
 
 .gallery__container {
-  margin: 2rem 0 0;
+  margin: 3rem 0 1rem;
   //padding-bottom: 0.5rem;
 
+  .gallery__cell {
+    border: 1px solid $light-gray;
+  }
   .gallery__item {
-    width: 100%;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    background-color: $white;
   }
 }

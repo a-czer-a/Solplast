@@ -48,20 +48,26 @@ peek-types:
     type: 'PEEK CA'
 
 
+peek-formats:
+  - 'płyty'
+  - 'pręty'
+
+
+peek: ''
+peek-gf: ''
+peek-ca: ''
+
+
 peek-use:
-  -
-    use: 'łożyska ślizgowe'
-  -
-    use: 'pierścienie tłokowe'
-  -
-    use: 'koła zębate'
-  -
-    use: 'uszczelnienia'
-  -
-    use: 'łopatki pomp'
+  - 'łożyska ślizgowe'
+  - 'pierścienie tłokowe'
+  - 'koła zębate'
+  - 'uszczelnienia'
+  - 'łopatki pomp'
 
 
-peek-about:
-  -
-    about: 'PEEK należy̨ do grupy tworzyw wysokogatunkowych. To tworzywo bardzo wytrzymałe z dużą odpornością cieplną i chemiczną. Charakteryzuje się dużą odpornością na ścieranie oraz jest stabilny rozmiarowo. Może być poddawany sterylizacji (parą wodną), dlatego stosowany jest często w medycynie oraz przemyśle spożywczym.
+peek-short: 'Do pracy w wysokich temperaturach, stabilny rozmiarowo.'
+
+
+peek-about: 'PEEK należy do grupy tworzyw wysokogatunkowych. Jest bardzo wytrzymały i ma dużą odporność cieplną i chemiczną. Charakteryzuje się dużą odpornością na ścieranie oraz jest stabilny rozmiarowo. Może być poddawany sterylizacji (parą wodną), dlatego stosowany jest często w medycynie oraz przemyśle spożywczym.
 '

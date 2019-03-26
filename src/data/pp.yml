@@ -45,20 +45,27 @@ pp-types:
   -
     type: 'PP GF'
   -
-    type: 'PP-HT'
+    type: 'PP HT'
+
+
+pp-h: ''
+pp-gf: ''
+pp-ht: ''
+
+
+pp-formats:
+  - 'płyty'
+  - 'pręty'
+  - 'tuleje'
 
 
 pp-use:
-  -
-    use: 'stoły wykrojników'
-  -
-    use: 'obudowy filtrów'
-  -
-    use: 'zbiorniki'
-  -
-    use: 'elementy pomp'
+  - 'stoły wykrojników'
+  - 'obudowy filtrów'
+  - 'zbiorniki'
+  - 'elementy pomp'
 
 
-pp-about:
-  -
-    about: 'Poliprepyleny otrzymywane są w wyniku polimeryzacji propylenu, tak samo jak polietyleny należą do grupy poliolefin. Posiadają jednak wyższą odporność chemiczną, sztywność oraz wyższą temperaturę topnienia. Polipropyleny są łatwe w obróbce i uniwersalne w użyciu. Niska gęstość (ok. 0,92g/cm3) wpływa na ich niską wagę. Polipropyleny są często używane do produkcji rur instalacyjnych do wody oraz do rur ściekowych.'
+pp-short: 'Odporny chemicznie, łatwopalny.'
+
+pp-about: 'Polipropyleny otrzymywane są w wyniku polimeryzacji propylenu, tak samo jak polietyleny należą do grupy poliolefin. Mają jednak wyższą odporność chemiczną, sztywność oraz wyższą temperaturę topnienia. Polipropyleny są łatwe w obróbce i uniwersalne w użyciu. Niska gęstość (ok. 0,92g/cm3) wpływa na ich małą wagę. Polipropyleny są często używane do produkcji rur instalacyjnych do wody oraz rur ściekowych.'

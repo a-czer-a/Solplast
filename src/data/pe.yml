@@ -50,29 +50,30 @@ pe-types:
     type: 'PE 1000 R'
 
 
+pe-formats:
+  - 'płyty'
+  - 'pręty'
+  - 'tuleje'
+
+pe300: ''
+pehd500: ''
+peuhmw1000: ''
+pe1000r: ''
+
+
 pe-use:
-  -
-    use: 'listwy ślizgowe'
-  -
-    use: 'gwiazdy'
-  -
-    use: 'łuki'
-  -
-    use: 'ślimaki'
-  -
-    use: 'stoły rozbiorowe'
-  -
-    use: 'elementy transporterów'
-  -
-    use: 'koła pasowe'
-  -
-    use: 'rolki'
-  -
-    use: 'napinacze łańcuchów'
-  -
-    use: 'wykładziny zbiorników'
+  - 'listwy ślizgowe'
+  - 'gwiazdy'
+  - 'łuki'
+  - 'ślimaki'
+  - 'stoły rozbiorowe'
+  - 'elementy transporterów'
+  - 'koła pasowe'
+  - 'rolki'
+  - 'napinacze łańcuchów'
+  - 'wykładziny zbiorników'
 
 
+pe-short: 'Łatwy w obróbce, stabilny rozmiarowo.'
 
-pe-about:
-  - about: 'Polietyleny należą do grupy półkrystalicznych termoplastów, otrzymywane są w wyniku polimeryzacji wysokociśnieniowej lub niskociśnieniowej (PE-HD). Są tworzywami łatwymi w obróbce z bardzo szerokim zakresem zastosowań. Niższy ciężar właściwy w porównaniu z innymi termoplastami zawdzięczają niskiej gęstości. Polietyleny dzięki swoim właściwościom znalazły bardzo szerokie zastosowanie w przemyśle spożywczym oraz jako części maszyn.'
+pe-about: 'Polietyleny należą do grupy półkrystalicznych termoplastów, otrzymywane są w wyniku polimeryzacji wysokociśnieniowej lub niskociśnieniowej (PE-HD). Są tworzywami łatwymi w obróbce z bardzo szerokim zakresem zastosowań. Niższy ciężar właściwy w porównaniu z innymi termoplastami zawdzięczają niskiej gęstości. Polietyleny dzięki swoim właściwościom znalazły bardzo szerokie zastosowanie w przemyśle spożywczym oraz do produkcji części  maszyn.'

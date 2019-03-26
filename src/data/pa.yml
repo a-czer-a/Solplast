@@ -57,19 +57,22 @@ pa-types:
 
 
 pa-use:
-  - 'koła zębate'
+  - 'koła zębate'
   - 'koła pasowe'
   - 'koła łańcuchowe'
-  - 'łożyska ślizgowe'
-  - 'wkładki ślizgowe'
+  - 'łożyska ślizgowe'
+  - 'wkładki ślizgowe'
   - 'tuleje'
-  - 'rolki napinające'
-  - 'rolki prowadzące'
+  - 'rolki napinające'
+  - 'rolki prowadzące'
   - 'skrobaki'
   - 'kołnierze'
-  - 'pierścienie uszczelniające'
+  - 'pierścienie uszczelniające'
 
-
+pa-formats:
+  - 'pręty'
+  - 'płyty'
+  - 'tuleje'
 
 pa6e: 'Wytłaczany gatunek poliamidu, przeznaczony do ogólnego zastosowania na elementy konstrukcyjne, łączy w sobie dobre właściwości mechaniczne, sztywność oraz dużą zdolność do tłumienia drgań.'
 
@@ -85,6 +88,6 @@ pa6gf: 'Gatunek poliamidu z dodatkiem 30% włókna szklanego, charakteryzujący 
 
 
 
-pa-short: 'Bardzo wysoka wytrzymałość mechaniczna, twardość i sztywność.'
+pa-short: 'Bardzo wysoka wytrzymałość mechaniczna, twardość i sztywność.'
 
-pa-about: 'Poliamidy to półkrystaliczne tworzywa termoplastyczne, otrzymywane głównie w wyniku polikondensacji. Cyfra przy skrócie w nazwie gatunku wskazuje na liczbę atomów węgla w podstawowej strukturze molekularnej. Wysoka skłonność do absorpcji wilgoci nadaje PA sztywność i twardość, co tworzy je wytrzymałymi i odpornymi na ścieranie oraz nadaje im doskonałe właściwości ślizgowe.'
+pa-about: 'Poliamidy to półkrystaliczne tworzywa termoplastyczne, otrzymywane głównie w wyniku polikondensacji. Cyfra przy skrócie w nazwie gatunku wskazuje na liczbę atomów węgla w podstawowej strukturze molekularnej. Wysoka skłonność do absorpcji wilgoci nadaje PA sztywność i twardość, co sprawia, że są wytrzymałe i odporne na ścieranie oraz nadaje im doskonałe właściwości ślizgowe.'

@@ -46,22 +46,24 @@ pc-types:
     type: 'PC GF'
 
 
+pc-formats:
+  - 'płyty'
+  - 'pręty'
+  - 'tuleje'
+
+pc: ''
+
+pc-gf: ''
+
+
 pc-use:
-  -
-    use: 'pojemniki'
-  -
-    use: 'osłony maszyn'
-  -
-    use: 'precyzyjne detale urządzeń medycznych'
-  -
-    use: 'elementy elektroizolacyjne'
+  - 'pojemniki'
+  - 'osłony maszyn'
+  - 'precyzyjne detale urządzeń medycznych'
+  - 'elementy elektroizolacyjne'
 
 
-pc-short:
-  -
-    short: 'Bezbarwny, stabilny rozmiarowo'
+pc-short: 'Bezbarwny, stabilny rozmiarowo.'
 
 
-pc-about:
-  -
-    about: 'Poliwęglan to termoplastyczne półprzeźroczyste tworzywo konstrukcyjne. Charakteryzuje się szerokim zakresem zastosowań oraz wysoką jakością. Jest odporny na uderzenia w szerokim zakresie temperaturowym. PC jest materiałem bardzo twardym, który może być poddawany sterylizacji i używany jako izolator elektryczny. Będąc tworzywem transparentnym, poliwęglan używany jest m.in. do produkcji osłon ochronnych maszyn i okienek wskaźników.'
+pc-about: 'Poliwęglan to termoplastyczne półprzeźroczyste tworzywo konstrukcyjne. Charakteryzuje się szerokim zakresem zastosowań oraz wysoką jakością. Jest odporny na uderzenia w szerokim zakresie temperaturowym. PC jest materiałem bardzo twardym, który może być poddawany sterylizacji i używany jako izolator elektryczny. Będąć tworzywem transparentnym, poliwęglan używany jest m.in. do produkcji osłon ochronnych maszyn i okienek wskaźników.'

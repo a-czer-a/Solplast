@@ -17,7 +17,7 @@ import $ from 'jquery';
 {
     $( '.google-map' ).lazyLoadGoogleMaps(
         {
-            key: 'AIzaSyBTUdj7ALkguCKmY7Uj3K-7V-8NHgouz3Q',
+            key: 'AIzaSyBXsjPBF-Q4Q4dMBx9wC1HQ-hWyUaJnOrI',
             signed_in: false,
             callback: function( container, map )
             {

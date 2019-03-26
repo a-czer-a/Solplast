@@ -66,19 +66,28 @@
             </div>
 
             <!-- USE -->
-            <div class="cell small-12">
-                <div class="cell small-12 ">
-                    <h5 class="product__subtitle u--margin2">Zastosowanie</h5></div>
-                <div class="cell small-12">
-                <div class="product__use">
-                        <ul class="product__use-list">
-                            {{#each pa.pa-use}}
-                            <li class="product__use-item">
-                                <i class="fas fa-check"></i> {{this}}
-                            </li>
-                            {{/each}}
-                        </ul>
-                    </div>
+            <div class="cell small-12 large-6 ">
+                <h5 class="product__subtitle u--margin2">Zastosowanie</h5>
+                <div class="product__list-container">
+                    <ul class="product__list">
+                        {{#each pa.pa-use}}
+                        <li class="product__list-item">
+                            <i class="fas fa-check"></i> {{this}}
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+            <div class="cell small-12 large-6">
+                <h5 class="product__subtitle u--margin2">Dostępne formaty</h5>
+                <div class="product__list-container">
+                    <ul class="product__list">
+                        {{#each pa.pa-formats}}
+                        <li class="product__list-item">
+                            <i class="fas fa-check"></i> {{this}}
+                        </li>
+                        {{/each}}
+                    </ul>
                 </div>
             </div>
         </div>
@@ -86,24 +95,61 @@
     <!---->
 
     <!-- GALLERY -->
+    <!--<div class="grid-x gallery__container">-->
+        <!--<div class="cell small-12 medium-4 gallery__cell">-->
+            <!--<img class="gallery__item"-->
+                 <!--srcset="{{root}}assets/img/IMG_3895-no-bg.png 640w, {{root}}assets/img/IMG_3895-no-bg.png 900w"-->
+                 <!--src="{{root}}/assets/img/IMG_3895-no-bg.png.jpg"-->
+                 <!--alt="Pręty z poliamidu">-->
+        <!--</div>-->
+        <!--<div class="cell small-12 medium-4 gallery__cell">-->
+            <!--<img class="gallery__item"-->
+                 <!--srcset="{{root}}assets/img/IMG_3722-no-bg-640.png 640w, {{root}}assets/img/IMG_3722-no-bg.png 900w"-->
+                 <!--src="{{root}}assets/img/IMG_3722-no-bg-640.png"-->
+                 <!--alt="Pręty z poliamidu">-->
+        <!--</div>-->
+        <!--<div class="cell small-12 medium-4 gallery__cell">-->
+            <!--<img class="gallery__item"-->
+                 <!--srcset="{{root}}assets/img/IMG_3874-no-bg-medium.png 640w, {{root}}assets/img/IMG_3874-no-bg-medium.png 900w"-->
+                 <!--src="{{root}}/assets/img/IMG_3874-no-bg-medium.png"-->
+                 <!--alt="Pręty z poliamidu">-->
+        <!--</div>-->
+    <!--</div>-->
+
+
     <div class="grid-x gallery__container">
-        <div class="cell small-12 medium-4">
-            <img class="gallery__item"
-                 srcset="{{root}}assets/img/pa-650.jpg 640w, {{root}}assets/img/pa-500.jpg 900w"
-                 src="{{root}}/assets/img/pa-650.jpg"
-                 alt="Pręty z poliamidu">
+        <div class="cell small-12 medium-4 gallery__cell">
+            <picture>
+                <source type="image/webp"
+                        data-srcset="{{root}}assets/img/IMG_3874-no-bg-medium.png 640w, {{root}}assets/img/IMG_3874-no-bg-medium.png 900w"
+                        data-sizes="100w">
+                <img alt="PA G 6 naturalny" class="lazy gallery__item"
+                     data-src="{{root}}assets/img/IMG_3874-no-bg-medium.png"
+                     data-srcset="{{root}}assets/img/IMG_3874-no-bg-medium.png 640w, {{root}}assets/img/IMG_3874-no-bg-medium.png 900w"
+                     data-sizes="100w">
+            </picture>
         </div>
-        <div class="cell small-12 medium-4">
-            <img class="gallery__item"
-                 srcset="{{root}}assets/img/pa-650.jpg 640w, {{root}}assets/img/pa-500.jpg 900w"
-                 src="{{root}}/assets/img/pa-650.jpg"
-                 alt="Pręty z poliamidu">
+        <div class="cell small-12 medium-4 gallery__cell">
+            <picture>
+                <source type="image/webp"
+                        data-srcset="{{root}}assets/img/IMG_3874-no-bg-medium.png 640w, {{root}}assets/img/IMG_3874-no-bg-medium.png 900w"
+                        data-sizes="100w">
+                <img alt="PA G 6 naturalny" class="lazy gallery__item"
+                     data-src="{{root}}assets/img/IMG_3874-no-bg-medium.png"
+                     data-srcset="{{root}}assets/img/IMG_3874-no-bg-medium.png 640w, {{root}}assets/img/IMG_3874-no-bg-medium.png 900w"
+                     data-sizes="100w">
+            </picture>
         </div>
-        <div class="cell small-12 medium-4">
-            <img class="gallery__item"
-                 srcset="{{root}}assets/img/pa-650.jpg 640w, {{root}}assets/img/pa-500.jpg 900w"
-                 src="{{root}}/assets/img/pa-650.jpg"
-                 alt="Pręty z poliamidu">
+        <div class="cell small-12 medium-4 gallery__cell">
+            <picture>
+                <source type="image/webp"
+                        data-srcset="{{root}}assets/img/IMG_3874-no-bg-medium.png 640w, {{root}}assets/img/IMG_3874-no-bg-medium.png 900w"
+                        data-sizes="100w">
+                <img alt="PA G 6 naturalny" class="lazy gallery__item"
+                     data-src="{{root}}assets/img/IMG_3874-no-bg-medium.png"
+                     data-srcset="{{root}}assets/img/IMG_3874-no-bg-medium.png 640w, {{root}}assets/img/IMG_3874-no-bg-medium.png 900w"
+                     data-sizes="100w">
+            </picture>
         </div>
     </div>
     <!---->

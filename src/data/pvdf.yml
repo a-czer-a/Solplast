@@ -40,18 +40,19 @@ pvdf-product:
 
 
 pvdf-use:
-  -
-    use: 'uszczelnienia'
-  -
-    use: 'kołnierze'
-  -
-    use: 'elementy ślizgowe'
-  -
-    use: 'korpusy zaworów'
-  -
-    use: 'obudowy'
+  - 'uszczelnienia'
+  - 'kołnierze'
+  - 'elementy ślizgowe'
+  - 'korpusy zaworów'
+  - 'obudowy'
 
 
-pvdf-about:
-  -
-    about: 'Polifluorek winylidenu wyróżnia się dobrymi właściwościami ślizgowymi oraz odpornością na promieniowanie UV. PVDF charakteryzuje się połączeniem bardzo dobrych właściwości mechanicznych, cieplnych, elektrycznych oraz ma wysoką odporność chemiczną. Dzięki wszechstronności oraz szerokiemu dopuszczalnemu zakresowi temperatur PVDF jest często stosowany w przemyśle medycznym.'
+pvdf-formats:
+  - 'płyty'
+  - 'pręty'
+  - 'tuleje'
+
+
+pvdf-short: 'Duża odporność chemiczna, doskonałe właściwości mechaniczne.'
+
+pvdf-about: 'Polifluorek winylidenu wyróżnia się̨ dobrymi właściwościami ślizgowymi oraz odpornością na promieniowanie UV. PVDF charakteryzuje się połączeniem bardzo dobrych właściwości mechanicznych, cieplnych, elektrycznych oraz ma wysoką odporność chemiczną. Dzięki wszechstronności oraz szerokiemu dopuszczalnemu zakresowi temperatur PVDF jest często stosowany w przemyśle medycznym.'

@@ -11,5 +11,17 @@
 }
 
 .pa__image {
-    background-image: url("../img/IMG_3788-black.jpg");
+    //background-image: url("../img/IMG_3788-black.jpg");
+    background-image: url("../img/subpage-1600x500.jpg");
+    background-image: url('../img/webp/subpage-1600x500.webp');
+
+    @include breakpoint(medium only) {
+        background-image: url("../img/subpage-1200.jpg");
+        background-image: url('../img/webp/subpage-1200.webp');
+    }
+    @include breakpoint(small only) {
+        background-image: url("../img/subpage-700.jpg");
+        background-image: url('../img/webp/subpage-700.webp');
+    }
+
 }

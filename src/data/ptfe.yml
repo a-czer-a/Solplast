@@ -53,6 +53,30 @@ ptfe-types:
     type: 'PTFE + brąz'
 
 
-ptfe-about:
-  -
-    about: 'Politetrafluoroetyleny charakteryzują się bardzo wysoką odpornością chemiczną oraz bardzo niskim współczynnikiem tarcia. Ich odporność cieplna -200oC do +260oC jest jedną z najwyższych wśród tworzyw sztucznych. Budowa cząstecz- kowa PTFE sprawia, że ich powierzchnia charakteryzuje się wysoką antyadhezyjnością. Ze względu na swoje właściwości jest stosowany najczęściej w przemyśle chemicznym oraz spożywczym.'
+ptfe-formats:
+  - 'płyty'
+  - 'pręty'
+  - 'tuleje'
+
+
+ptfe: ''
+ptfe-gf: ''
+ptfe-w: ''
+ptfe-gra: ''
+prfe-br: ''
+
+
+ptfe-use:
+  - 'uszczelnienia'
+  - 'uszczelnienia hydrauliczne'
+  - 'pierścienie'
+  - 'pierścienie tłokowe'
+  - 'elementy ślizgowe'
+  - 'powłoki antykorozyjne'
+  - 'izolatory'
+  - 'łożyska'
+
+
+ptfe-short: 'Duży zakres temperaturowy, doskonała odporność chemiczna.'
+
+ptfe-about: 'Politetrafluoroetyleny charakteryzują się bardzo wysoką odpornością chemiczną oraz bardzo niskim współczynnikiem tarcia. Ich odporność cieplna -200oC do +260oC jest jedną z najwyższych wśród tworzyw sztucznych. Budowa cząstecz- kowa PTFE sprawia, że ich powierzchnia charakteryzuje się wysoką antyadhezyjnością. Ze względu na swoje właściwości jest stosowany najczęściej w przemyśle chemicznym oraz spożywczym.'
