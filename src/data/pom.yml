@@ -25,7 +25,7 @@ pom-product:
     right: 'polioksymetylen'
   -
     left: 'Nazwy używane'
-    right: 'poliacetal / poliformaldehyd'
+    right: 'poliacetal, poliformaldehyd'
   -
     left: 'Skrót ISO 1043'
     right: 'POM'
@@ -34,10 +34,10 @@ pom-product:
     right: '9002-81-7'
   -
     left: 'Rodzaj tworzywa'
-    right: 'Termoplastyczne'
-  -
-    left: 'Wzór chemiczny'
-    right: '(CH2O)n'
+    right: 'termoplastyczne'
+#  -
+#    left: 'Wzór chemiczny'
+#    right: '(CH2O)n'
 
 
 pom-types:
@@ -55,12 +55,12 @@ pom-types:
     type: 'POM GF30'
 
 
-pom-c: ''
-pom-h: ''
-pom-anty: ''
-pom-pe: ''
-pom-ptfe: ''
-pom-gf30: ''
+pomc: 'To kopolimer acetalu charakteryzujący się niską absorbcją wilgoci, doskonałą obrabialnością i bardzo dobrą stabilnością wymiarową. Cechuje się dużą sztywnością i wytrzymałością mechaniczną oraz dobrą odpornością chemiczną i odpornością na pełzanie.'
+pomh: 'To homopolimer acetalu, który w porównaniu z gatunkiem POM C ma większą gęstość, wyższą wytrzymałość mechaniczną, twardość i sztywność, a także odporność na ścieranie.'
+pomanty: 'Jest kopolimerem acetalu z dodatkiem specjalnej sadzy, charakteryzujący się przewodzeniem prądu elektrycznego. Jest odporny na działanie promieniowania UV oraz czynników atmosferycznych.'
+pompe: 'Jest kopolimerem acetalu z dodatkiem polietylenu, który gwarantuje niższy współczynnik tarcia i poprawia właściwości ślizgowe w porównaniu z podstawowym gatunkiem tworzywa POM C. Dodatek polietylenu obniża jego gęstość do 1,35g/cm3  oraz ogranicza wytrzymałość i twardość.'
+pomptfe: 'Jest kopolimerem acetalu z dodatkiem PTFE. Podobnie jak tworzywo POM+PE, charakteryzuje się niskim współczynnikiem tarcia i lepszymi właściwościami ślizgowymi w porównaniu z podstawowym gatunkiem POM C. Dodatek PTFE poprawia właściwości termiczne materiału, co sprawia, że krótkotrwała temperatura użytkowania wynosi 150 stopni Celsjusza.'
+pomgf30: 'Jest kopolimerem acetalu wzmocniony w 30% włóknem szklanym. Charakteryzuje się podwyższoną wytrzymałością mechaniczną, sztywnością oraz stabilnością wymiarową. Stosowany głównie do wytwarzania długotrwale obciążonych części mechanicznych.'
 
 
 pom-formats:

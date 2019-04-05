@@ -4,30 +4,267 @@
     <!--{{> hero}}-->
     {{> image}}
 
-    <!-- INFO TABLE -->
-    <table class="l-table unstriped">
-        <tbody class="table__body">
-        {{#each pom.pom-product}}
-        <tr>
-            <th class="table__head">{{left}}</th>
-            <td class="table__cell">{{right}}</td>
-        </tr>
-        {{/each}}
-        </tbody>
-    </table>
-    <!---->
-    <!-- MATERIAL TABLE -->
-    <table class="l-table unstriped">
-        <tbody>
-        {{#each pom.pom-material}}
-        <tr>
-            <th class="table__head">{{left}}</th>
-            <td class="table__cell">{{right}}</td>
-        </tr>
-        {{/each}}
-        </tbody>
-    </table>
+
+    {{> side-navigation}}
+
+    <!-- ABOUT MATERIAL-->
+    <div class="l-section">
+        <p class="product__nav">Tworzywa sztuczne<i class="fas fa-chevron-right"></i>POM</p>
+        <h4 class="l-section__header">POM</h4>
+        <div class="product__about">
+            <p class="about-text">
+                {{pom.pom-about}}
+            </p>
+            <div class="grid-x align-center-middle product__important">
+                <svg class="cell shrink" xmlns="http://www.w3.org/2000/svg" width="79.348" height="58.348" viewBox="0 0 79.348 58.348"><defs><style>.a{fill:#7587a0;}.b{fill:#97a5b8;}</style></defs><g transform="translate(-539.84 -814.224)"><g transform="translate(539.84 814.224)"><g transform="translate(0)"><rect class="a" width="26.389" height="26.389" transform="translate(18.66 21.028) rotate(45)"/><rect class="b" width="26.389" height="26.389" transform="translate(40.215) rotate(45)"/><rect class="a" width="26.389" height="26.389" transform="translate(60.687 21.028) rotate(45)"/></g></g></g></svg>
+                <div class="cell auto ">
+                    <h6 class="product__important-text">{{pom.pom-short}}</h6>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="l-section info__container">
+        <!-- INFO TABLE -->
+        <div class="grid-x product__about">
+            <div class="cell small-12 large-6 grid-x">
+                    <table class="l-table unstriped">
+                        <th class="product__subtitle">Informacje ogólne</th>
+                        <tbody class="table__body">
+                        {{#each pom.pom-product}}
+                        <tr>
+                            <th class="table__head">{{left}}</th>
+                            <td class="table__cell">{{right}}</td>
+                        </tr>
+                        {{/each}}
+                        <tr>
+                            <th class="table__head">Wzór chemiczny</th>
+                            <td class="table__cell">(CH<sub>2</sub>O)<sub>n</sub></td>
+                        </tr>
+                        </tbody>
+                    </table>
+            </div>
+
+            <div class="cell small-12 large-6 grid-x">
+                    <table class="l-table unstriped">
+                        <th class="product__subtitle product__subtitle--padding-top">Właściwości materiału</th>
+                        <tbody>
+                        {{#each pom.pom-material}}
+                        <tr>
+                            <th class="table__head">{{left}}</th>
+                            <td class="table__cell">{{right}}</td>
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+            </div>
+
+            <!-- USE -->
+            <div class="cell small-12 large-6 ">
+                <h5 class="product__subtitle u--margin2">Zastosowanie</h5>
+                <div class="product__list-container">
+                    <ul class="product__list">
+                        {{#each pom.pom-use}}
+                        <li class="product__list-item">
+                            <i class="fas fa-check"></i> {{this}}
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+            <div class="cell small-12 large-6">
+                <h5 class="product__subtitle u--margin2">Dostępne formaty</h5>
+                <div class="product__list-container">
+                    <ul class="product__list">
+                        {{#each pom.pom-formats}}
+                        <li class="product__list-item">
+                            <i class="fas fa-check"></i> {{this}}
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <!---->
 
+    <!-- GALLERY -->
+
+    <div class="grid-x gallery__container">
+        <div class="cell small-12 medium-4 gallery__cell">
+            <picture>
+                <source type="image/webp"
+                        data-srcset="{{root}}assets/img/POM/webp/POMC-czarny.webp"
+                        data-sizes="100w">
+                <img alt="POM C czarny" class="lazy gallery__item"
+                     data-src="{{root}}assets/img/POM/POMC-czarny.png"
+                     data-srcset="{{root}}assets/img/POM/POMC-czarny.png"
+                     data-sizes="100w">
+            </picture>
+        </div>
+        <div class="cell small-12 medium-4 gallery__cell">
+            <picture>
+                <source type="image/webp"
+                        data-srcset="{{root}}assets/img/POM/webp/POMC-detal.webp"
+                        data-sizes="100w">
+                <img alt="POM C detal" class="lazy gallery__item"
+                     data-src="{{root}}assets/img/POM/POMC-detal.png"
+                     data-srcset="{{root}}assets/img/POM/POMC-detal.png"
+                     data-sizes="100w">
+            </picture>
+        </div>
+        <div class="cell small-12 medium-4 gallery__cell">
+            <picture>
+                <source type="image/webp"
+                        data-srcset="{{root}}assets/img/POM/webp/POMFG-blue-1000.webp"
+                        data-sizes="100w">
+                <img alt="POM FG niebieski" class="lazy gallery__item gallery__item--left"
+                     data-src="{{root}}assets/img/POM/POMFG-blue-1000.png"
+                     data-srcset="{{root}}assets/img/POM/POMFG-blue-640.png 640w, {{root}}assets/img/POM/POMFG-blue-1000.png 900w"
+                     data-sizes="100w">
+            </picture>
+        </div>
+    </div>
+    <!---->
+
+    <!-- TYPES -->
+    <div class="l-section">
+        <h5>Dostępne gatunki</h5>
+        <ul class="tabs product__tabs u--margin2 text-center grid-x grid-margin-x align-center" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" data-tabs id="deeplinked-tabs">
+            <li class="tabs-title is-active product__type "><a class="product__tab-anchor" href="#pomc" aria-selected="true">POM C</a></li>
+            <li class="tabs-title product__type"><a class="product__tab-anchor" href="#pomh">POM H</a></li>
+            <li class="tabs-title product__type"><a class="product__tab-anchor" href="#pomanty">POM antystatyczny</a></li>
+            <li class="tabs-title product__type"><a class="product__tab-anchor" href="#pompe">POM + PE</a></li>
+            <li class="tabs-title product__type"><a class="product__tab-anchor" href="#pomptfe">POM + PTFE</a></li>
+            <li class="tabs-title product__type"><a class="product__tab-anchor" href="#pomgf30">POM GF30</a></li>
+        </ul>
+
+        <div class="product__about">
+            <div class="tabs-content tabs-content--fix" data-tabs-content="deeplinked-tabs">
+
+                <!-- POM C -->
+                <div class="tabs-panel is-active" id="pomc">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p><strong>1,41 g/cm<sup>3</sup></strong></p>
+                            <p>{{pom.pomc}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="Pobierz kartę techniczną">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                    <h6 class="product__catalog-title">Katalog wyrobów</h6>
+                    <div class="grid-x">
+                        <div class="cell shrink">
+                            <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="Pobierz katalog wyrobów">
+                        </div>
+                        <div class="cell auto">
+                            <a class="product__download" href="{{root}}assets/img/download/POM/POMC-prety.pdf" target="_blank">POM C &ndash; pręty</a></div>
+                    </div>
+                    <div class="grid-x u-padding-top">
+                        <div class="cell shrink">
+                            <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="Pobierz katalog wyrobów">
+                        </div>
+                        <div class="cell auto">
+                            <a class="product__download" href="{{root}}assets/img/download/POM/POMC-plyty.pdf" target="_blank">POM C &ndash; płyty</a></div>
+                    </div>
+                    <div class="grid-x u-padding-top">
+                        <div class="cell shrink">
+                            <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="Pobierz katalog wyrobów">
+                        </div>
+                        <div class="cell auto">
+                            <a class="product__download" href="{{root}}assets/img/download/POM/POMC-tuleje.pdf" target="_blank">POM C &ndash; tuleje</a></div>
+                    </div>
+                </div>
+                <!---->
+
+                <!-- POM H-->
+                <div class="tabs-panel" id="pomh">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p><strong>1,42 g/cm<sup>3</sup></strong></p>
+                            <p>{{pom.pomh}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="Pobierz kartę techniczną">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="#" target="_blank">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+
+                <!-- POM antystatyczny -->
+                <div class="tabs-panel" id="pomanty">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p><strong>1,45 g/cm<sup>3</sup></strong></p>
+
+                            <p>{{pom.pomanty}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="Pobierz kartę techniczną">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POM PE-->
+                <div class="tabs-panel" id="pompe">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p>{{pom.pompe}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="Pobierz kartę techniczną">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POM + PTFE-->
+                <div class="tabs-panel" id="pomptfe">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p>{{pom.pomptfe}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="Pobierz kartę techniczną">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POM GF30-->
+                <div class="tabs-panel" id="pomgf30">
+                    <div class="grid-x">
+                        <div class="cell small-12 medium-auto">
+                            <p>{{pom.pomgf30}}</p>
+                        </div>
+                        <div class="cell small-12 medium-shrink product__download grid-x">
+                            <div class="cell shrink">
+                                <img class="product__download-icon" src="{{root}}assets/img/file-6.svg" alt="Pobierz kartę techniczną">
+                            </div>
+                            <div class="cell auto product__download-text"><a href="">Pobierz kartę techniczną</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---->
     {{> footer}}
 </div>

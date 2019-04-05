@@ -1,18 +1,5 @@
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
-.no-js {
-  @include breakpoint(small only) {
-    .top-bar {
-      display: none;
-    }
-  }
-
-  @include breakpoint(medium) {
-    .title-bar {
-      display: none;
-    }
-  }
-}
 
 .topbar-responsive {
   background: $white;
@@ -104,13 +91,20 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
     .menu__dropdown {
       color: $blue;
-      margin-top: 18px;
-      border-top: 1px solid $white;
+      margin-top: 20px;
+      //border-top: 1px solid $white;
+
+      @include breakpoint(medium only) {
+        margin-top: 18px;
+      }
 
       @include breakpoint(small only) {
         padding: 10px 10px 0 0;
         margin-top: 0;
       }
+    }
+    .menu__dropdown--contact {
+      margin-top: 71px;
     }
 
     .menu__dropdown-link {

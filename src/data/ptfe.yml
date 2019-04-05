@@ -35,9 +35,9 @@ ptfe-product:
   -
     left: 'Rodzaj tworzywa'
     right: 'termoplastyczne'
-  -
-    left: 'Wzór chemiczny'
-    right: 'C2F4'
+#  -
+#    left: 'Wzór chemiczny'
+#    right: 'C2F4'
 
 
 ptfe-types:
@@ -59,11 +59,11 @@ ptfe-formats:
   - 'tuleje'
 
 
-ptfe: ''
-ptfe-gf: ''
-ptfe-w: ''
-ptfe-gra: ''
-prfe-br: ''
+ptfe: 'Niemodyfikowany gatunek PTFE jest najpowszechniej stosowanym materiałem fluoropolimerowym. Wyróżnia się bardzo wysoką odpornością chemiczną, bardzo szerokim zakresem temperatury pracy, antyadhezyjnością oraz bardzo niskim współczynnikiem tarcia.'
+ptfegf25: 'Gatunek PTFE wypełniony w 25% włóknem szklanym, co zwiększa jego odporność na zużycie oraz zmniejsza odkształcenia materiału.'
+ptfew: 'Gatunek PTFE wypełniony w 25% węglem. Charakteryzuje się dobrą odpornością na odkształcenia oraz dobrą przewodnością cieplną. Dodatek węgla sprawia, że otrzymujemy materiał o właściwościach antystatycznych.'
+ptfeg: 'Gatunek PTFE wypełniony grafitem, charakteryzuje się niższym współczynnikiem tarcia oraz dobrą wytrzymałością mechaniczną i sztywnością.'
+ptfeb: 'Gatunek PTFE wypełniony w 40% brązem. Zachowuje niski współczynnik tarcia wraz z dobrą odpornością na zużycie. Dodatek brązu zwiększa twardość oraz wytrzymałość materiału na ściskanie.'
 
 
 ptfe-use:
@@ -79,4 +79,4 @@ ptfe-use:
 
 ptfe-short: 'Duży zakres temperaturowy, doskonała odporność chemiczna.'
 
-ptfe-about: 'Politetrafluoroetyleny charakteryzują się bardzo wysoką odpornością chemiczną oraz bardzo niskim współczynnikiem tarcia. Ich odporność cieplna -200oC do +260oC jest jedną z najwyższych wśród tworzyw sztucznych. Budowa cząstecz- kowa PTFE sprawia, że ich powierzchnia charakteryzuje się wysoką antyadhezyjnością. Ze względu na swoje właściwości jest stosowany najczęściej w przemyśle chemicznym oraz spożywczym.'
+ptfe-about: 'Politetrafluoroetyleny charakteryzują się bardzo wysoką odpornością chemiczną oraz bardzo niskim współczynnikiem tarcia. Ich odporność cieplna od -200 stopni Celsjusza do +260 stopni Celsjusza jest jedną z najwyższych wśród tworzyw sztucznych. Budowa cząsteczkowa PTFE sprawia, że jego powierzchnia charakteryzuje się wysoką antyadhezyjnością. Ze względu na swoje właściwości jest stosowany najczęściej w przemyśle chemicznym oraz spożywczym.'

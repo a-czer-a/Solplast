@@ -21,3 +21,44 @@ materials:
     plastic: PC
   -
     plastic: PMMA
+
+
+tuleje:
+#  - POM
+  - PA
+  - PE
+  - PP
+  - PET
+  - PVC
+  - PTFE
+  - PVDF
+  - PC
+#  - PMMA
+
+
+prety:
+  #  - POM
+  - PA
+  - PET
+  - PE
+  - PP
+  - PVC
+  - PEEK
+  - PTFE
+  - PVDF
+  - PC
+  #  - PMMA
+
+
+plyty:
+  #  - POM
+  - PVC
+  - PET
+  - PA
+  - PE
+  - PP
+  - PC
+  - PEEK
+  - PTFE
+  - PVDF
+  #  - PMMA

@@ -35,31 +35,30 @@ pe-product:
   - left: 'Rodzaj tworzywa'
     right: 'termoplastyczne'
 
-  - left: 'Wzór chemiczny'
-    right: 'C2H4'
+#  - left: 'Wzór chemiczny'
+#    right: 'C2H4'
 
 
 pe-types:
   -
-    type: 'PE 300'
+    type: 'PE HD 300'
   -
-    type: 'PEHD 500'
+    type: 'PE HMW 500'
   -
-    type: 'PE-UHMW 1000'
+    type: 'PE UHMW 1000'
   -
-    type: 'PE 1000 R'
+    type: 'PE UHMW R 1000'
 
+
+pehd300: 'Jest gatunkiem polietylenu znajdującym swoje zastosowanie głównie w produkcji nie obciążonych części maszyn, okładzin, obudów zbiorników, band dla boisk wielofunkcyjnych i w przemyśle spożywczym. Charakteryzuje się bardzo dobrymi właściwościami spawalniczymi.'
+pehmw500: 'Gatunek polietylenu charakteryzujący się dobrą odpornością na zużycie i rozcinanie. Jest materiałem łatwym w obróbce. Wykorzystywany m. in. do produkcji blatów, stołów rozbiorowych, klocków masarskich, elementów transporterów oraz średnio obciążonych części maszyn. Posiada również dobre właściwości ślizgowe, antyadhezyjne oraz dobrą udarność.'
+peuhmw1000: 'Gatunek polietylenu o bardzo dużej masie cząstkowej. Wyróżnia się bardzo dobrą odpornością na ścieranie oraz zużycie. Wytwarza się z niego: ślimaki, gwiazdy, łuki, prowadnice, ślizgi, części zaworów oraz zapinacze łańcuchów.'
+peuhmwr1000: 'Gatunek o średniej masie cząsteczkowej, ok. 4 mln g/mol. Jest tańszą alternatywą dla PE UHMW 1000, powstaje na bazie czystego PE 1000 zmieszanego z dokładnie wyselekcjonowanym i powtórnie przetworzonym PE UHMW 1000. Dostępny w kolorach: czarny (AST), zielony, confetti (wielokolorowy).'
 
 pe-formats:
   - 'płyty'
   - 'pręty'
   - 'tuleje'
-
-pe300: ''
-pehd500: ''
-peuhmw1000: ''
-pe1000r: ''
-
 
 pe-use:
   - 'listwy ślizgowe'
@@ -76,4 +75,4 @@ pe-use:
 
 pe-short: 'Łatwy w obróbce, stabilny rozmiarowo.'
 
-pe-about: 'Polietyleny należą do grupy półkrystalicznych termoplastów, otrzymywane są w wyniku polimeryzacji wysokociśnieniowej lub niskociśnieniowej (PE-HD). Są tworzywami łatwymi w obróbce z bardzo szerokim zakresem zastosowań. Niższy ciężar właściwy w porównaniu z innymi termoplastami zawdzięczają niskiej gęstości. Polietyleny dzięki swoim właściwościom znalazły bardzo szerokie zastosowanie w przemyśle spożywczym oraz do produkcji części  maszyn.'
+pe-about: 'Polietyleny należą do grupy półkrystalicznych termoplastów, otrzymywane są w wyniku polimeryzacji wysokociśnieniowej lub niskociśnieniowej (PE HD). Są tworzywami łatwymi w obróbce z bardzo szerokim zakresem zastosowań. Niższy ciężar właściwy w porównaniu z innymi termoplastami zawdzięczają niskiej gęstości. Polietyleny dzięki swoim właściwościom znalazły bardzo szerokie zastosowanie w przemyśle spożywczym oraz do produkcji części  maszyn.'

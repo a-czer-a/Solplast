@@ -1,42 +1,42 @@
 pmma-material:
   -
     left: 'Absorpcja wody'
-    right: 'dobra'
+    right: '-'
   -
     left: 'Wytrzymałość i twardość'
-    right: 'dobra'
+    right: '-'
 
   - left: 'Odporność cieplna'
-    right: 'dobra'
+    right: '-'
 
   - left: 'Stabilność wymiarowa'
-    right: 'dobra'
+    right: '-'
 
   - left: 'Obrabialność'
-    right: 'dobra'
+    right: '-'
 
   - left: 'Odporność chemiczna'
-    right: 'dobra'
+    right: '-'
 
 
 pmma-product:
   - left: 'Nazwa'
-    right: 'poliwęglan'
+    right: 'polimetakrylan metylu'
 
   - left: 'Nazwy używane'
-    right: 'makrolon'
+    right: 'pleksi, pleksiglas'
 
   - left: 'Skrót ISO 1043'
-    right: 'PC'
+    right: 'PMMA'
 
   - left: 'Numer-CAS'
-    right: '64-10-8'
+    right: '-'
 
   - left: 'Rodzaj tworzywa'
-    right: 'termoplastyczne'
+    right: '-'
 
-  - left: 'Wzór chemiczny'
-    right: 'C15H16O2 + CCl2O'
+#  - left: 'Wzór chemiczny'
+#    right: '-'
 
 
 pmma-formats:

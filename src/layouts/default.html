@@ -9,20 +9,86 @@
     <meta name="description" content="Solplast - sprzedaż tworzyw sztucznych">
     <meta name="theme-color" content="#fff">
     <title>Solplast</title>
-    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">-->
-    <link rel="stylesheet" href="{{root}}assets/css/app.css">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" as="font">
-    <link rel="shortcut icon" href="{{root}}assets/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="{{root}}assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{root}}assets/img/logo-favicon.png" type="image/x-icon">
+    <link rel="icon" href="{{root}}assets/img/logo-favicon.png" type="image/x-icon">
+    <!--<link rel="dns-prefetch" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" as="font" crossorigin="">-->
+    <link rel="preload" href="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" as="font">
+    <link rel="preconnect" href="http://fonts.googleapis.com" crossorigin>
+    <style>
+      .no-js .top-bar {
+        display: none;
+      }
+
+      @media screen and (min-width: 40em) {
+        .no-js .top-bar {
+          display: block;
+        }
+
+        .no-js .title-bar {
+          display: none;
+        }
+      }
+    </style>
   </head>
+
 <body>
 
 {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
 {{> body}}
 
-<script async defer src="https://cdn.jsdelivr.net/npm/intersection-observer@0.5.1/intersection-observer.js"></script>
-<script async defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.6/dist/lazyload.min.js"></script>
-<script async src="{{root}}assets/js/app.js"></script>
+<!--<script>-->
+  <!--document.documentElement.classList.remove("no-js");-->
+<!--</script>-->
+<script defer async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.6/dist/lazyload.min.js"></script>
 
+
+<script type="text/javascript">
+  const cssFile = document.createElement('link');
+  cssFile.rel = 'stylesheet';
+  cssFile.href = '{{root}}assets/css/app.css';
+  cssFile.type = 'text/css';
+  const godefer = document.getElementsByTagName('link')[0];
+  godefer.parentNode.insertBefore(cssFile, godefer);
+</script>
+
+
+<script type="text/javascript">
+  function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "{{root}}assets/js/app.js";
+    document.body.appendChild(element);
+  }
+  if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+  else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+  else window.onload = downloadJSAtOnload;
+</script>
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Open+Sans:400,600,700:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+
+
+<!--<script>-->
+    <!--if ('serviceWorker' in navigator) {-->
+        <!--navigator.serviceWorker.register('/service-worker.js')-->
+            <!--.then(registration =>-->
+                <!--console.log(`Registration succeeded with ${registration.scope}`)-->
+            <!--).catch(error =>-->
+            <!--console.log(`Registration failed with + ${error}`)-->
+        <!--)-->
+    <!--};-->
+<!--</script>-->
 </body>
 </html>

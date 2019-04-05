@@ -35,22 +35,25 @@ pp-product:
   - left: 'Rodzaj tworzywa'
     right: 'termoplastyczne'
 
-  - left: 'Wzór chemiczny'
-    right: 'C3H3'
+#  - left: 'Wzór chemiczny'
+#    right: 'C3H3'
 
 
 pp-types:
   -
-    type: 'PP-H'
+    type: 'PP H'
   -
-    type: 'PP GF'
+    type: 'PP GF 30'
   -
-    type: 'PP HT'
+    type: 'PP C'
+  -
+    type: 'PP S'
 
 
-pp-h: ''
-pp-gf: ''
-pp-ht: ''
+pph: 'Homopolimer polipropylenu, jest jego standardowym gatunkiem.'
+ppgf30: 'Polipropylen wypełniony w 30% włóknem szklanym.'
+ppc: 'Kopolimer polipropylenu.'
+pps: 'Polipropylen trudnopalny.'
 
 
 pp-formats:

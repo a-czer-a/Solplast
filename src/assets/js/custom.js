@@ -26,12 +26,13 @@ import {FoundationSitesStatic as _} from "foundation-sites";
 
 
 
-// // LAZY LOAD - https://github.com/verlok/lazyload
-//
-// var lazyLoadInstance = new LazyLoad({
-//     elements_selector: ".lazy",
-//     load_delay: 400
-// });
+// LAZY LOAD - https://github.com/verlok/lazyload
+
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy",
+    load_delay: 400,
+    threshold: 150,
+});
 
 
 

@@ -24,7 +24,7 @@ pet-product:
     right: 'politereftalan etylenu'
 
   - left: 'Nazwy używane'
-    right: ''
+    right: '-'
 
   - left: 'Skrót ISO 1043'
     right: 'PET'
@@ -35,8 +35,8 @@ pet-product:
   - left: 'Rodzaj tworzywa'
     right: 'termoplastyczne'
 
-  - left: 'Wzór chemiczny'
-    right: 'C10H8O4'
+#  - left: 'Wzór chemiczny'
+#    right: 'C10H8O4'
 
 
 pet-types:
@@ -51,8 +51,8 @@ pet-formats:
   - 'pręty'
   - 'tuleje'
 
-pet: ''
-pet-sl: ''
+pet: 'Jest termoplastycznym tworzywem konstrukcyjnym o doskonałych właściwościach ślizgowych (zawdzięcza to niskiemu współczynnikowi tarcia), z wysoką wytrzymałością mechaniczną oraz bardzo dobrze obrabialnym. Wyróżnia go odporność na działanie promieni UV, odporność na działanie niskich i wysokich temperatur oraz odporność na starzenie.'
+petsl: 'Jest to odmiana PET z równomiernie rozprowadzonym środkiem smarnym, którego zadaniem jest obniżenie współczynnika tarcia. W porównaniu z podstawowym gatunkiem PET, charakteryzuje się wyższą odpornością na ścieranie. Zalecany głównie do produkcji łożysk ślizgowych. '
 
 
 pet-use:

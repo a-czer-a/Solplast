@@ -114,6 +114,14 @@
 
 .u--margin2 {
   margin-top: 40px;
+
+  @include breakpoint(small only) {
+    margin-top: 30px;
+  }
+}
+
+.u--margin-bottom {
+  margin-bottom: 30px;
 }
 
 .u-padding-top {
@@ -124,30 +132,7 @@
   //border-left: 2px solid $green;
 }
 
+.u-no-border-bottom {
+ border-bottom: none;
+}
 
-// IMAGES
-
-//img {
-//  filter: blur(5px);
-//  -webkit-filter: blur(5px);
-//}
-//
-//img.loaded {
-//  filter: blur(0);
-//  -webkit-filter: blur(0);
-//}
-//
-//img {
-//  opacity: 0;
-//}
-//img:not(.initial) {
-//  transition: opacity 1s;
-//}
-//img.initial,
-//img.loaded,
-//img.error {
-//  opacity: 1;
-//}
-//img:not([src]) {
-//  visibility: hidden;
-//}

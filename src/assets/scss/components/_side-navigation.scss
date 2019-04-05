@@ -8,9 +8,10 @@
   //z-index: 100;
   text-align: left;
 
-  @include breakpoint(medium down) {
+  @media screen and (max-width: 1150px) {
     visibility: hidden;
   }
+
 
   .side-nav__list {
     list-style-type: none;

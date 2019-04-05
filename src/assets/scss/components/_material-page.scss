@@ -18,9 +18,18 @@
   color: $blue;
   font-size: 1.1rem;
   font-weight: 600;
-  padding-bottom: 6px;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  padding-left: 0;
   text-transform: uppercase;
 }
+
+.product__subtitle--padding-top {
+  @include breakpoint(medium down) {
+    padding-top: 40px;
+  }
+}
+
 .product__list-container {
   background-color: $white;
 
@@ -138,6 +147,11 @@
   }
 }
 
+.product__download--notabs {
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
 .product__download-icon {
   width: 25px;
   height: auto;
@@ -149,7 +163,7 @@
 }
 
 .product__about {
-  width: 80%;
+  width: 87%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
 
@@ -158,7 +172,7 @@
   }
 
   @include breakpoint(small only) {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -174,14 +188,66 @@
 .gallery__container {
   margin: 3rem 0 1rem;
   //padding-bottom: 0.5rem;
+  @include breakpoint(small only) {
+    margin: 1.5rem 0 0;
+    height: 100%;
+  }
 
   .gallery__cell {
-    border: 1px solid $light-gray;
+    position: relative;
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+    border-left: none;
+    border-right: none;
+    //text-align: center;
   }
+
+  .gallery__cell--height {
+    height: auto;
+    max-height: 230px;
+    overflow: hidden;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  .gallery__cell--no-border {
+    border-bottom: none;
+  }
+
   .gallery__item {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     background-color: $white;
+
+    @include breakpoint(small only) {
+      width: 100%;
+    }
+  }
+
+  .gallery__item--50 {
+    width: 50%;
+    margin-top: 5%;
+    align-self: middle;
+  }
+
+  .gallery__item--90 {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .gallery__item--left {
+    align-self: flex-start;
+  }
+}
+
+.gallery__container--main {
+  margin: 3rem 0 0;
+  @include breakpoint(small only) {
+    margin: 1.5rem 0 0;
+    height: 100%;
   }
 }

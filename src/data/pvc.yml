@@ -35,8 +35,8 @@ pvc-product:
   - left: 'Rodzaj tworzywa'
     right: 'termoplastyczne'
 
-  - left: 'Wzór chemiczny'
-    right: 'C2H3Cl'
+#  - left: 'Wzór chemiczny'
+#    right: 'C2H3Cl'
 
 
 pvc-formats:

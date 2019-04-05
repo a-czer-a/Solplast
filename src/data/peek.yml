@@ -24,7 +24,7 @@ peek-product:
     right: 'polieteroeteroketon'
 
   - left: 'Nazwy używane'
-    right: 'polieteroeteroketon'
+    right: '-'
 
   - left: 'Skrót ISO 1043'
     right: 'PEEK'
@@ -34,9 +34,9 @@ peek-product:
 
   - left: 'Rodzaj tworzywa'
     right: 'termoplastyczne'
-
-  - left: 'Wzór chemiczny'
-    right: 'C19H14O3'
+#
+#  - left: 'Wzór chemiczny'
+#    right: 'C19H14O3'
 
 
 peek-types:
@@ -47,15 +47,15 @@ peek-types:
   -
     type: 'PEEK CA'
 
-
 peek-formats:
   - 'płyty'
   - 'pręty'
 
 
-peek: ''
-peek-gf: ''
-peek-ca: ''
+peek: 'Polieteroelektroketon – jest wysokosprawnym tworzywem termoplastycznym łączącym w sobie odporność na wysokie temperatury, doskonałą odporność na zużycie, bardzo dobre właściwości mechaniczne oraz dużą odporność chemiczną. Maksymalna dopuszczalna temperatura pracy krótkotrwałej to 310 stopni Celsjusza , a długotrwałej - 250 stopni Celsjusza. Wyróżnia się doskonałą stabilnością wymiarową i dużą wytrzymałością na pełzanie. Stosowany do wytwarzania detali o dużych wymaganiach i pracujących w trudnych warunkach.'
+peekgf30: 'Gatunek PEEK w 30% wzmocniony włóknem szklanym, charakteryzuje się dużą sztywnością, zwiększoną wytrzymałością mechaniczną. W porównaniu z niemodyfikowanym gatunkiem PEEK uzyskuje wyższą wytrzymałość na pełzanie oraz stabilność wymiarową. Szczególnie zalecany do wytwarzania detali pracujących w  wysokich temperaturach, narażonych na długookresowe wysokie obciążenia statyczne.'
+peekca30: 'Gatunek PEEK w 30% wzmocniony włóknem węglowym, w porównaniu z PEEK GF 30 cechuje się wyższą wytrzymałością mechaniczną, odpornością na ścieranie (lepsze właściwości ślizgowe) oraz znacznie lepszą przewodnością cieplną.'
+peekpgc: 'Gatunek PEEK wzmocniony w 10% PTFE, w 10% grafitem oraz w 10% włóknem węglowym. Cechuje się bardzo dobrymi właściwościami ślizgowymi (bardzo niski współczynnik tarcia) oraz wysoką odpornością na zużycie. Szczególnie zalecany do wytwarzania wysoko obciążonych elementów ślizgowych (m.in. łożysk) pracujących w  wysokich temperaturach.'
 
 
 peek-use:

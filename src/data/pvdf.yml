@@ -35,8 +35,8 @@ pvdf-product:
   - left: 'Rodzaj tworzywa'
     right: 'termoplastyczne'
 
-  - left: 'Wzór chemiczny'
-    right: 'C2H2F2'
+#  - left: 'Wzór chemiczny'
+#    right: 'C2H2F2'
 
 
 pvdf-use:
@@ -45,6 +45,8 @@ pvdf-use:
   - 'elementy ślizgowe'
   - 'korpusy zaworów'
   - 'obudowy'
+
+
 
 
 pvdf-formats:

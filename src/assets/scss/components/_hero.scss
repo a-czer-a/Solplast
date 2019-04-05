@@ -1,3 +1,27 @@
+.webp .hero__image {
+  background-image: url('../img/webp/main-hero.webp');
+
+  @include breakpoint(small only) {
+    background-image: url("../img/webp/main-hero-small.webp");
+  }
+
+  @include breakpoint(medium only) {
+    background-image: url("../img/webp/main-hero-medium.webp");
+  }
+}
+
+.no-webp .hero__image {
+  background-image: url('../img/main-hero.jpg');
+
+  @include breakpoint(small only) {
+    background-image: url("../img/main-hero-small.jpg");
+  }
+
+  @include breakpoint(medium only) {
+    background-image: url("../img/main-hero-medium.jpg");
+  }
+}
+
 .l-hero__container {
   position: relative;
   height: 385px;
@@ -5,7 +29,6 @@
   padding: 0;
 
   .hero__image {
-    background-image: url("../img/stock-photo-plastic-water-pipe-industry-147074075-cropped.jpg");
     background-size: cover;
     height: 100%;
   }

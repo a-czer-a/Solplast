@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import 'what-input';
+import './modernizr-webp'
 import './custom';
 
 // Foundation JS relies on a global varaible. In ES6, all imports are hoisted

@@ -63,6 +63,38 @@
 @import 'util/util';
 
 
+@font-face {
+  font-family: 'Open Sans';
+  font-display: swap;
+  font-weight: 700;
+  src: url('OpenSans-Bold-webfont.eot'),
+  url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+  url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-display: swap;
+  font-weight: 400;
+  src: url('OpenSans-Regular-webfont.eot'),
+  url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+  url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-display: swap;
+  font-weight: 600;
+  src: url('OpenSans-Semibold-webfont.eot'),
+  url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+  url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype');
+  font-style: normal;
+
+}
+
+
 
 // CUSTOM VARIABLES
 
@@ -91,7 +123,7 @@ $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Open Sans', sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -117,7 +149,7 @@ $print-hrefs: true;
 $breakpoints: (
   small: 0,
   medium: 640px,
-  large: 1024px,
+  large: 980px,
   xlarge: 1200px,
   xxlarge: 1440px,
 );

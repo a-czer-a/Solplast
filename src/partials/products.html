@@ -23,45 +23,28 @@
     <div class="tabs-content" data-tabs-content="deeplinked-tabs">
         <div class="tabs-panel is-active" id="tuleje">
             <div class="grid-x grid-padding-x align-center">
-                <div class="tabs__item cell"><a class="tab__item" href="#"><i class="fas fa-chevron-right"></i>POM</a></div>
-                <div class="tabs__item cell "><a href="PA.html"><i class="fas fa-chevron-right"></i>PA</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PET</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PE</a></div>
-                <div class="tabs__item cell "><a href="#"><i class="fas fa-chevron-right"></i>PP</a></div>
-                <div class="tabs__item cell "><a href="#"><i class="fas fa-chevron-right"></i>PVC</a></div>
-                <div class="tabs__item cell "><a href="#"><i class="fas fa-chevron-right"></i>PTFE</a></div>
-                <div class="tabs__item cell "><a href="#"><i class="fas fa-chevron-right"></i>PVDF</a></div>
-                <div class="tabs__item cell "><a href="#"><i class="fas fa-chevron-right"></i>PC</a></div>
-                <div class="tabs__item cell  tabs__item--last"><a href="#"><i class="fas fa-chevron-right"></i>PMMA</a></div>
+                <div class="tabs__item cell"><a class="tab__item" href="POM.html"><i class="fas fa-chevron-right"></i>POM</a></div>
+                {{#each general.tuleje}}
+                <div class="tabs__item cell "><a href="{{this}}.html"><i class="fas fa-chevron-right"></i>{{this}}</a></div>
+                {{/each}}
+                <div class="tabs__item cell tabs__item--last"><a href="PMMA.html"><i class="fas fa-chevron-right"></i>PMMA</a></div>
             </div>
         </div>
         <div class="tabs-panel" id="prety">
             <div class="grid-x grid-padding-x align-center">
-                <div class="tabs__item cell"><a class="tab__item" href="#"><i class="fas fa-chevron-right"></i>POM</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PA</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PET</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PE</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PP</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PVC</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PEEK</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PTFE</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PVDF</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PC</a></div>
+                <div class="tabs__item cell"><a class="tab__item" href="POM.html"><i class="fas fa-chevron-right"></i>POM</a></div>
+                {{#each general.prety}}
+                <div class="tabs__item cell "><a href="{{this}}.html"><i class="fas fa-chevron-right"></i>{{this}}</a></div>
+                {{/each}}
                 <div class="tabs__item cell tabs__item--last"><a href="#"><i class="fas fa-chevron-right"></i>PMMA</a></div>
             </div>
         </div>
         <div class="tabs-panel" id="plyty">
             <div class="grid-x grid-padding-x align-center">
                 <div class="tabs__item cell"><a class="tab__item" href="#"><i class="fas fa-chevron-right"></i>POM</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PA</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PET</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PE</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PP</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PVC</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PEEK</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PTFE</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PVDF</a></div>
-                <div class="tabs__item cell"><a href="#"><i class="fas fa-chevron-right"></i>PC</a></div>
+                {{#each general.plyty}}
+                <div class="tabs__item cell "><a href="{{this}}.html"><i class="fas fa-chevron-right"></i>{{this}}</a></div>
+                {{/each}}
                 <div class="tabs__item cell tabs__item--last"><a href="#"><i class="fas fa-chevron-right"></i>PMMA</a></div>
             </div>
         </div>

@@ -35,8 +35,8 @@ pc-product:
   - left: 'Rodzaj tworzywa'
     right: 'termoplastyczne'
 
-  - left: 'Wzór chemiczny'
-    right: 'C15H16O2 + CCl2O'
+#  - left: 'Wzór chemiczny'
+#    right: 'C15H16O2 + CCl2O'
 
 
 pc-types:
@@ -51,9 +51,8 @@ pc-formats:
   - 'pręty'
   - 'tuleje'
 
-pc: ''
-
-pc-gf: ''
+pc: 'do uzupełnienia'
+pcgf: 'do uzupełnienia'
 
 
 pc-use:
@@ -64,6 +63,5 @@ pc-use:
 
 
 pc-short: 'Bezbarwny, stabilny rozmiarowo.'
-
 
 pc-about: 'Poliwęglan to termoplastyczne półprzeźroczyste tworzywo konstrukcyjne. Charakteryzuje się szerokim zakresem zastosowań oraz wysoką jakością. Jest odporny na uderzenia w szerokim zakresie temperaturowym. PC jest materiałem bardzo twardym, który może być poddawany sterylizacji i używany jako izolator elektryczny. Będąć tworzywem transparentnym, poliwęglan używany jest m.in. do produkcji osłon ochronnych maszyn i okienek wskaźników.'
